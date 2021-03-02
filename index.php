@@ -9,6 +9,7 @@
     </head>
     <body>
      Hello
+     <img src="Pictures\sword.png" alt="Kills" width="30" height="30">
      <button type="submit" class="button"><span>TEST </span></button>
         <script src="js/main.js"></script>
     </body>
