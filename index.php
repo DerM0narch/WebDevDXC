@@ -9,7 +9,7 @@
     </head>
     <body>
      Hello
-     <button type="submit"><span>TEST </span></button>
+     <button type="submit" class="button"><span>TEST </span></button>
         <script src="js/main.js"></script>
     </body>
 </html>

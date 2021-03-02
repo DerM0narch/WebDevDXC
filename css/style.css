@@ -3,9 +3,9 @@ body {
 	color: #FFFFFF;
 }
 
-button {
+.bigbutton {
   display: inline-block;
-  border-radius: 4px;
+  border-radius: 8px;
   background-color: #bb86fc;
   border: none;
   color: #FFFFFF;
@@ -18,14 +18,14 @@ button {
   margin: 5px;
 }
 
-button span {
+.bigbutton span {
   cursor: pointer;
   display: inline-block;
   position: relative;
   transition: 0.5s;
 }
 
-button span:after {
+.bigbutton span:after {
   content: '\00bb';
   position: absolute;
   opacity: 0;
@@ -34,17 +34,36 @@ button span:after {
   transition: 0.5s;
 }
 
-button:hover span {
+.bigbutton:hover span {
   padding-right: 25px;
 }
 
-button:hover span:after {
+.bigbutton:hover span:after {
   opacity: 1;
   right: 0;
 }
 
-
 .disabled {
   opacity: 0.6;
   cursor: not-allowed;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: rgba(187,134,252,0.6);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button:hover {
+	background-color: rgba(187,134,252,1);
+}
+
+.button:clicked {
+	background-color: rgba(200,150,255,1);
 }
