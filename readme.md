@@ -1,6 +1,6 @@
 Grundlagen Webdevelopment DXC
 ---
-Die Git-Repo in .../XAMPP/htdocs klonen (.git Ordner sollte sich im htdocs Ordner befinden)
+Die Git-Repo in .../XAMPP/htdocs klonen
 
 ![image](https://user-images.githubusercontent.com/71702864/109631217-0531a980-7b46-11eb-9a9a-df8ade7a6f5b.png)
 
