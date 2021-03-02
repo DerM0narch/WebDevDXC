@@ -2,6 +2,12 @@ drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
 
+create table if not exists t_rolle (
+  r_id int auto_increment not null,
+  r_bezeichnung varchar(25),
+  primary key (r_id)
+); 
+
 create table if not exists t_team (
    te_id int auto_increment not null,
    te_name varchar(50),
@@ -9,19 +15,20 @@ create table if not exists t_team (
    primary key (te_id)
 );
 
-create table if not exists t_player 
-(
+create table if not exists t_player (
     p_id int auto_increment not null,
     p_name varchar(25),
     p_vname varchar(25),
-  	p_ingamename varchar(50),
-  	p_herkunft varchar(50) default 'unbekannt',
+  	 p_ingamename varchar(50),
+  	 p_herkunft varchar(50) default 'unbekannt',
     p_team int,
+  	 p_r_rolle int,
     p_geb date,
     primary key (p_id),
-    foreign key (p_team) references t_team(te_id)
-);
-
+    foreign key (p_team) references t_team(te_id),
+  	 foreign KEY (p_r_rolle) references t_rolle(r_id) 
+); 
+  
 CREATE TABLE if NOT EXISTS t_gesamt_stats 
 (
     s_te_id INT auto_increment not null,
@@ -63,6 +70,14 @@ Create table if not exists t_spiel_stats
 );
 
 #insert into 
+#rollen
+INSERT INTO t_rolle (r_bezeichnung) VALUES
+('Toplane'),
+('Jungle'),
+('Midlane'),
+('Botlane'),
+('Support');
+
 #teams
 insert into t_team (te_name, te_kuerzel) values
 ('G2 ESports', 'G2'), ('Fnatic', 'FNC'), 
@@ -70,3 +85,7 @@ insert into t_team (te_name, te_kuerzel) values
 ('SK Gaming', 'SK'), ('Unicorns of Love', 'UOL'),
 ('Funplus Phoenix', 'FPX'), ('SKT1', 'T1'),
 ('Damwon Gaming', 'DWG'), ('Invictus Gaming', 'IG');
+
+#spieler
+insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) Values
+('Larsson', 'Martin', 'G2 Rekkles', 1, 4);
