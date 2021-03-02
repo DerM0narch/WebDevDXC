@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
-     
+     Hello
         <script src="js/main.js"></script>
     </body>
 </html>

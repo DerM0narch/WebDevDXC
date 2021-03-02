@@ -1,0 +1,6 @@
+@media (prefers-color-sheme: dark) {
+	body {
+		background: #121212;
+		color: #FFFFFF;
+	}
+}
