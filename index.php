@@ -11,7 +11,7 @@
     <body>
         <button type="submit" class="button"><span>TEST </span></button>
         <br>
-        <br>
+        <br> 
         <h1>Willkommen auf LeagueTeams</h1>
         <br>
         <h3> Deine Seite mit allen wichtigen Infos</h3>
