@@ -2,7 +2,7 @@ Grundlagen Webdevelopment DXC
 ---
 Die Git-Repo in .../XAMPP/htdocs klonen
 
-![image](https://user-images.githubusercontent.com/71702864/109631217-0531a980-7b46-11eb-9a9a-df8ade7a6f5b.png)
+![image](https://user-images.githubusercontent.com/71702864/109635782-0e714500-7b4b-11eb-9ec2-c1425b3c3563.png)
 
 
 Sollte der .git Ordner nicht zu sehen sein, ausgeblendete Elemente in der Ansicht aktivieren!
