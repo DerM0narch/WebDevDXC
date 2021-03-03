@@ -16,10 +16,12 @@
     <div class="row">
         <div class="col">
             <i class="fas fa-clock"></i> <b style="font-size: large;"> Nächstes Spiel</b>
+            <hr>
             <!-- TODO Select Befehl für nächstes Spiel -->
         </div>
         <div class="col">
             <i class="fas fa-trophy"></i> <b style="font-size: large;"> Top 3</b>
+            <hr>
             <!-- TODO Select Befehl für die Top 3 Teams bei Siegen 
             select * from t_gesamt_stats order by s_win desc limit 3 -->
         </div>
