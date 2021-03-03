@@ -6,20 +6,23 @@ use LeagueTeams;
 
 #Tabellen
 
-create table if not exists t_rolle (
+create table if not exists t_rolle 
+(
   r_id int auto_increment not null,
   r_bezeichnung varchar(25),
   primary key (r_id)
 );
 
-create table if not exists t_team (
+create table if not exists t_team 
+(
    te_id int auto_increment not null,
    te_name varchar(50),
    te_kuerzel varchar(3),
    primary key (te_id)
 );
 
-create table if not exists t_player (
+create table if not exists t_player 
+(
     p_id int auto_increment not null,
     p_name varchar(25),
     p_vname varchar(25),
