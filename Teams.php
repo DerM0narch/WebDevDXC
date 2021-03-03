@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <?php include 'navigation.php' ?>
+    <?php include 'src/navigation.php' ?>
 </head>
 
 <body>

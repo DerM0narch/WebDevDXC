@@ -7,12 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>League of Legends Tournament</title>
     <link rel="stylesheet" href="css/style.css">
-    <?php include 'navigation.php' ?>
+    <?php include 'src/navigation.php' ?>
 </head>
 
 <body>
-    
-    <img src="pictures/LoL_icon.png" title = "LOL" alt="LoL-Icon">
+
+    <img src="pictures/LoL_icon.png" title="LOL" alt="LoL-Icon">
     <h1>Willkommen auf LeagueTeams</h1>
     <br>
     <h3> Deine Seite mit allen wichtigen Infos</h3>
