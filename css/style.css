@@ -95,3 +95,17 @@ html {
   background-color: #33557e;
   color: white;
 }
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 1;
+  background-color: #1b1b2f;
+  border-radius: 8px;
+  border: 0px;
+  padding: 1em;
+  margin: 5px;
+  font-family: monospace;
+}
