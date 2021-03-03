@@ -10,10 +10,9 @@
     <?php include 'src/navigation.php' ?>
 </head>
 
-<body>
-
-    <img src="pictures/LoL_icon.png" title="LOL" alt="LoL-Icon">
-    <h1>Willkommen auf LeagueTeams</h1>
+<body style="text-align: center">
+    <!-- TODO create an Index Page -->
+    <img src="pictures/lol_championship.png" alt="LoL-Icon" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px;" height="200px" width="auto">
     <br>
     <h3> Deine Seite mit allen wichtigen Infos</h3>
     <h3> über deine Teams und die Spiele </h3>
@@ -24,4 +23,3 @@
 </body>
 
 </html>
-<!--halloo-->
