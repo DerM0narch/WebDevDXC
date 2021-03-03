@@ -1,26 +1,7 @@
-<style type="text/css" media="screen">
-  .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    font-family: monospace;
-  }
-
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-
-
-  .topnav a.active {
-    background-color: #bb86fc;
-    color: white;
-  }
-</style>
-<script src="https://kit.fontawesome.com/763c726486.js" crossorigin="anonymous"></script>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/763c726486.js" crossorigin="anonymous"></script>
+</head>
 
 <div class="topnav">
   <a <?php if (stripos($_SERVER['REQUEST_URI'], 'index.php') !== false) {
