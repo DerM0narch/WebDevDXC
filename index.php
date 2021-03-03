@@ -10,9 +10,9 @@
     <?php include 'src/navigation.php' ?>
 </head>
 
-<body style="text-align: center">
+<body>
     <img src="pictures/lol_championship.png" alt="LoL-Icon" style="display: block; margin-left: auto; margin-right: auto; margin-top: 10px;" height="200px" width="auto">
-    <h3>Der Tournament Tracker ihres Vertrauens</h3> <br>
+    <h3 style="text-align: center">Der Tournament Tracker ihres Vertrauens</h3> <br>
     <div class="row">
         <div class="col">
             <i class="fas fa-clock"></i> <b style="font-size: large;"> Nächstes Spiel</b>
