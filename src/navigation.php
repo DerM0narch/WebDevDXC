@@ -20,3 +20,7 @@
         echo 'class="active"';
       } ?> href="login.php" style="float:right;"><i class="fas fa-sign-in-alt"></i> Login</a>
 </div> <br>
+
+<footer style="font-size: xx-small; position: fixed; bottom: 0;">
+  © Hilal, Lars, Patrick 2021
+</footer>
