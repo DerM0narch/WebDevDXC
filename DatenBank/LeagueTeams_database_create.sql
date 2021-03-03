@@ -6,7 +6,7 @@ create table if not exists t_rolle (
   r_id int auto_increment not null,
   r_bezeichnung varchar(25),
   primary key (r_id)
-); 
+);
 
 create table if not exists t_team (
    te_id int auto_increment not null,
@@ -26,10 +26,10 @@ create table if not exists t_player (
     p_geb date,
     primary key (p_id),
     foreign key (p_team) references t_team(te_id),
-  	 foreign KEY (p_r_rolle) references t_rolle(r_id) 
-); 
-  
-CREATE TABLE if NOT EXISTS t_gesamt_stats 
+  	 foreign KEY (p_r_rolle) references t_rolle(r_id)
+);
+
+CREATE TABLE if NOT EXISTS t_gesamt_stats
 (
     s_te_id INT auto_increment not null,
     s_win INT,
@@ -40,7 +40,7 @@ CREATE TABLE if NOT EXISTS t_gesamt_stats
     FOREIGN KEY (s_te_id) REFERENCES t_team(te_id)
 );
 
-Create table if not exists t_spieltag 
+Create table if not exists t_spieltag
 (
 	sp_id int auto_increment not null,
   sp_tag int not null,
@@ -50,9 +50,9 @@ Create table if not exists t_spieltag
   primary key (sp_id),
   foreign key (sp_blue_side) references t_team(te_id),
   foreign key (sp_red_side) references t_team(te_id)
-); 
+);
 
-Create table if not exists t_spiel_stats 
+Create table if not exists t_spiel_stats
 (
   ss_sp_id int auto_increment not null,
   ss_blue_kills int,
@@ -69,7 +69,7 @@ Create table if not exists t_spiel_stats
   foreign key (ss_sp_id) references t_team(te_id)
 );
 
-#insert into 
+#insert into
 #rollen
 INSERT INTO t_rolle (r_bezeichnung) VALUES
 ('Toplane'),
@@ -80,12 +80,55 @@ INSERT INTO t_rolle (r_bezeichnung) VALUES
 
 #teams
 insert into t_team (te_name, te_kuerzel) values
-('G2 ESports', 'G2'), ('Fnatic', 'FNC'), 
-('Rogue', 'RGE'), ('Schalke 04', 'S04'), 
+('G2 ESports', 'G2'), ('Fnatic', 'FNC'),
+('Rogue', 'RGE'), ('Schalke 04', 'S04'),
 ('SK Gaming', 'SK'), ('Unicorns of Love', 'UOL'),
 ('Funplus Phoenix', 'FPX'), ('SKT1', 'T1'),
 ('Damwon Gaming', 'DWG'), ('Invictus Gaming', 'IG');
 
 #spieler
 insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) Values
-('Larsson', 'Martin', 'G2 Rekkles', 1, 4);
+('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
+('Winther','Rasmus', 'G2 Caps', 1, 3),
+('Mehle', 'Mihael', 'G2 Mikyx', 1, 5),
+('Hansen', 'Martin', 'G2 Wunder', 1, 1),
+('Jankowski', 'Marcin', 'G2 Jankos', 1, 2),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
+('', '', '', , ),
