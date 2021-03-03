@@ -4,7 +4,7 @@ drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
 
-#Tabellen
+#Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match)
 
 create table if not exists t_rolle 
 (
@@ -80,6 +80,7 @@ Create table if not exists t_spiel_stats
 #INSERT INTO
 
 #Rollen
+
 INSERT INTO t_rolle (r_bezeichnung) VALUES
 
 ('Toplane'),
@@ -90,6 +91,7 @@ INSERT INTO t_rolle (r_bezeichnung) VALUES
 
 
 #Teams
+
 INSERT INTO t_team (te_name, te_kuerzel) VALUES
 
 ('G2 ESports', 'G2'), ('Fnatic', 'FNC'),
@@ -100,15 +102,16 @@ INSERT INTO t_team (te_name, te_kuerzel) VALUES
 
 
 #Spieler
+
 INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
 #G2 Esports - Region EU
 
-('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
-('Winther','Rasmus', 'G2 Caps', 1, 3),
-('Mehle', 'Mihael', 'G2 Mikyx', 1, 5),
 ('Hansen', 'Martin', 'G2 Wunder', 1, 1),
 ('Jankowski', 'Marcin', 'G2 Jankos', 1, 2),
+('Winther','Rasmus', 'G2 Caps', 1, 3),
+('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
+('Mehle', 'Mihael', 'G2 Mikyx', 1, 5),
 
 #Fnatic - Region EU
 
