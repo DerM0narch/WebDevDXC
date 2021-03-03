@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    
     <img src="pictures/LoL_icon.png" title = "LOL" alt="LoL-Icon">
     <h1>Willkommen auf LeagueTeams</h1>
     <br>
