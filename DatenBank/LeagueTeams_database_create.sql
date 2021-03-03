@@ -1,6 +1,10 @@
+#League Of Legends Website/APP
+
 drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
+
+#Tabellen
 
 create table if not exists t_rolle (
   r_id int auto_increment not null,
@@ -69,25 +73,31 @@ Create table if not exists t_spiel_stats
   foreign key (ss_sp_id) references t_team(te_id)
 );
 
-#insert into
-#rollen
+
+#INSERT INTO
+
+#Rollen
 INSERT INTO t_rolle (r_bezeichnung) VALUES
+
 ('Toplane'),
 ('Jungle'),
 ('Midlane'),
 ('Botlane'),
 ('Support');
 
-#teams
-insert into t_team (te_name, te_kuerzel) values
+
+#Teams
+INSERT INTO t_team (te_name, te_kuerzel) VALUES
+
 ('G2 ESports', 'G2'), ('Fnatic', 'FNC'),
 ('Rogue', 'RGE'), ('Schalke 04', 'S04'),
 ('SK Gaming', 'SK'), ('Unicorns of Love', 'UOL'),
 ('Funplus Phoenix', 'FPX'), ('Vega Squadron', 'VEG'),
 ('Damwon Gaming', 'DWG'), ('Gambit Esports', 'GMB');
 
-#spieler
-insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
+
+#Spieler
+INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
 #G2 Esports
 
