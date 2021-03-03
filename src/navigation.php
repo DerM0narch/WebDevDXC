@@ -18,7 +18,7 @@
       } ?> href="matches.php"><i class="fas fa-chess"></i> Matches</a>
   <a <?php if (stripos($_SERVER['REQUEST_URI'], 'login.php') !== false) {
         echo 'class="active"';
-      } ?> href="login.php" style="float:right;"><i class="fas fa-sign-in-alt"></i> Login</a>
+      } ?> href="login.php" style="float:right; margin-right: 0;"><i class="fas fa-sign-in-alt"></i> Login</a>
 </div> <br>
 
 <footer style="font-size: xx-small; position: fixed; bottom: 0;">
