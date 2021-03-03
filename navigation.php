@@ -19,8 +19,4 @@
   <a <?php if (stripos($_SERVER['REQUEST_URI'], 'login.php') !== false) {
         echo 'class="active"';
       } ?> href="login.php" style="float:right;"><i class="fas fa-sign-in-alt"></i> Login</a>
-</div>
-<br>
-<br>
-<br>
-<br>
+</div> <br>

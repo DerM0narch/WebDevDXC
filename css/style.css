@@ -68,6 +68,11 @@ html {
   background-color: rgba(200, 150, 255, 1);
 }
 
+.topnav {
+  background-color: #1b1b2f;
+  border-radius: 8px;
+  height: 48px;
+}
 .topnav a {
   float: left;
   color: #f2f2f2;
