@@ -102,7 +102,7 @@ INSERT INTO t_team (te_name, te_kuerzel) VALUES
 #Spieler
 INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
-#G2 Esports
+#G2 Esports - Region EU
 
 ('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
 ('Winther','Rasmus', 'G2 Caps', 1, 3),
@@ -110,7 +110,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Hansen', 'Martin', 'G2 Wunder', 1, 1),
 ('Jankowski', 'Marcin', 'G2 Jankos', 1, 2),
 
-#Fnatic
+#Fnatic - Region EU
 
 ('Rau', 'Gabriël', 'FNC Bwipo ', 2, 1),
 ('Boderek', 'Oskar', 'FNC Selfmade', 2, 2),
@@ -118,7 +118,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Lipp', 'Elias', 'FNC Upset', 3, 4),
 ('Iliev Galabov', 'Zdravets', 'FNC Hylissang', 3, 5),
 
-#Rogue
+#Rogue - Region EU 
 
 ('Pascu', 'Andrei', 'RGE Odoamne', 3, 1),
 ('Słoma','Kacper', 'RGE Inspired', 3, 2),
@@ -126,7 +126,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Liv', 'Steven', 'RGE Hans Sama', 3, 4),
 ('Trybus', 'Adrian', 'RGE Trymbi', 3, 5),
 
-#Schalke 04
+#Schalke 04 - Region EU
 
 ('Çelik', 'Sergen', 'S04 Broken Blade', 4, 1),
 ('Demir','Erberk', 'S04 Gilius', 4, 2),
@@ -134,7 +134,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Jakubčík', 'Matúš', 'S04 Neon', 4, 4),
 ('Tot', 'Dino', 'S04 LIMIT', 4, 5),
 
-#SK Gaming
+#SK Gaming - Region EU
 
 ('Bartels', 'Janik', 'SK Jenax', 5, 1),
 ('Østergaard Hansen','Kristian', 'SK TynX', 5, 2),
@@ -142,7 +142,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Massol', 'Jean', 'SK Jezu', 5, 4),
 ('Wessén', 'Erik', 'SK Treatz', 5, 5),
 
-#Unicorns Of Love
+#Unicorns Of Love Region CIS
 
 ('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
 ('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
@@ -150,7 +150,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Botezatu', 'Antonio', 'UOL Frappii', 6, 4),
 ('Lifashin', 'Aleksandr', 'UOL SaNTaS', 6, 5),
 
-#Funplus Phoenix
+#Funplus Phoenix - Region China
 
 ('Jang', 'Ha-gwon', 'FPX Nuguri', 7, 1),
 ('Yang','Ling', 'FPX Beichuan', 7, 2),
@@ -158,7 +158,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Lin', 'Wei-Xiang', 'FPX Lwx', 7, 4),
 ('Liu', 'Quing-Song', 'FPX Crisp', 7, 5),
 
-#Vega Squadron
+#Vega Squadron - Region CIS 
 
 ('Zuravlev', 'Oleg', 'VEG Charger ', 8, 1),
 ('Zenyan','Artem', 'VEG Rein ', 8, 2),
@@ -166,7 +166,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Averin', 'Vadim', 'VEG CyraXx', 8, 4),
 ('Musaev', 'Ali', 'VEG Mercenary', 8, 5),
 
-#Damwon Gaming
+#Damwon Gaming - Region Korea
 
 ('Kim', 'Dong-ha', 'DWG Khan', 9, 1),
 ('Kim','Geon-bu', 'DWG Canyon', 9, 2),
@@ -174,7 +174,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Jang', 'Yong-jun', 'DWG Ghost', 9, 4),
 ('Cho', 'Geon-hee', 'DWG BeryL', 9, 5),
 
-#Gambit Esports
+#Gambit Esports - Region CIS
 
 ('Leksin', 'Mark', 'GMB DREAMPYLLA', 10, 1),
 ('Glazkov','Alexander', 'GMB PvPStejos', 10, 2),
