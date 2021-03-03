@@ -139,32 +139,32 @@ insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
 #Funplus Phoenix
 
-('', '', '', 7, 1),
-('','', '', 7, 2),
-('', '', '', 7, 3),
-('', '', '', 7, 4),
-('', '', ' ', 7, 5),
+('Jang', 'Ha-gwon', 'FPX Nuguri', 7, 1),
+('Yang','Ling', 'FPX Beichuan', 7, 2),
+('Kim', 'Tae-sang', 'FPX Doinb', 7, 3),
+('Lin', 'Wei-Xiang', 'FPX Lwx', 7, 4),
+('Liu', 'Quing-Song', 'FPX Crisp', 7, 5),
 
 #Vega Squadron
 
-('', '', '', 8, 1),
-('','', '', 8, 2),
-('', '', '', 8, 3),
-('', '', '', 8, 4),
-('', '', '', 8, 5),
+('Zuravlev', 'Oleg', 'VEG Charger ', 8, 1),
+('Zenyan','Artem', 'VEG Rein ', 8, 2),
+('Moskalenko', 'Zhenya', 'VEG PekiDo', 8, 3),
+('Averin', 'Vadim', 'VEG CyraXx', 8, 4),
+('Musaev', 'Ali', 'VEG Mercenary', 8, 5),
 
 #Damwon Gaming
 
-('', '', '', 9, 1),
-('','', '', 9, 2),
-('', '', '', 9, 3),
-('', '', '', 9, 4),
-('', '', '', 9, 5),
+('Kim', 'Dong-ha', 'DWG Khan', 9, 1),
+('Kim','Geon-bu', 'DWG Canyon', 9, 2),
+('Heo', 'Su', 'DWG ShowMaker', 9, 3),
+('Jang', 'Yong-jun', 'DWG Ghost', 9, 4),
+('Cho', 'Geon-hee', 'DWG BeryL', 9, 5),
 
 #Gambit Esports
 
-('', '', '', 10, 1),
-('','', '', 10, 2),
-('', '', '', 10, 3),
-('', '', '', 10, 4),
-('', '', '', 10, 5);
+('Leksin', 'Mark', 'GMB DREAMPYLLA', 10, 1),
+('Glazkov','Alexander', 'GMB PvPStejos', 10, 2),
+('Lemeshchuk', 'Alexey', 'GMB Phlaty', 10, 3),
+('Pervushin', 'Artyom', 'GMB Shiganari', 10, 4),
+('Lexikov', 'Alexander', 'GMB Lekcycc', 10, 5);
