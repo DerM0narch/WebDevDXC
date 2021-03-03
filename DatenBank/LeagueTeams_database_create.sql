@@ -109,43 +109,43 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
 #Fnatic
 
-('', '', '', 2, 1),
-('','', '', 2, 2),
-('', '', '', 2, 3),
-('', '', '', 3, 4),
-('', '', '', 3, 5),
+('Rau', 'Gabriël', 'FNC Bwipo ', 2, 1),
+('Boderek', 'Oskar', 'FNC Selfmade', 2, 2),
+('Dinçer', 'Yasin', 'FNC Nisqy', 2, 3),
+('Lipp', 'Elias', 'FNC Upset', 3, 4),
+('Iliev Galabov', 'Zdravets', 'FNC Hylissang', 3, 5),
 
 #Rogue
 
-('', '', '', 3, 1),
-('','', '', 3, 2),
-('', '', ' ', 3, 3),
-('', '', ' ', 3, 4),
-('', '', '', 3, 5),
+('Pascu', 'Andrei', 'RGE Odoamne', 3, 1),
+('Słoma','Kacper', 'RGE Inspired', 3, 2),
+('Larsson', 'Emil', 'RGE Larssen ', 3, 3),
+('Liv', 'Steven', 'RGE Hans Sama', 3, 4),
+('Trybus', 'Adrian', 'RGE Trymbi', 3, 5),
 
 #Schalke 04
 
-('', '', '', 4, 1),
-('','', ' ', 4, 2),
-('', '', ' ', 4, 3),
-('', '', ' ', 4, 4),
-('', '', ' ', 4, 5),
+('Çelik', 'Sergen', 'S04 Broken Blade', 4, 1),
+('Demir','Erberk', 'S04 Gilius', 4, 2),
+('Braun', 'Felix', 'S04 Abbedagge', 4, 3),
+('Jakubčík', 'Matúš', 'S04 Neon', 4, 4),
+('Tot', 'Dino', 'S04 LIMIT', 4, 5),
 
 #SK Gaming
 
-('', '', ' ', 5, 1),
-('','', '', 5, 2),
-('', '', ' ', 5, 3),
-('', '', '', 5, 4),
-('', '', ' ', 5, 5),
+('Bartels', 'Janik', 'SK Jenax', 5, 1),
+('Østergaard Hansen','Kristian', 'SK TynX', 5, 2),
+('Gören', 'Ersin', 'SK Blue', 5, 3),
+('Massol', 'Jean', 'SK Jezu', 5, 4),
+('Wessén', 'Erik', 'SK Treatz', 5, 5),
 
 #Unicorns Of Love
 
-('', '', ' ', 6, 1),
-('','', ' ', 6, 2),
-('', '', ' ', 6, 3),
-('', '', ' ', 6, 4),
-('', '', ' ', 6, 5),
+('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
+('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
+('Yakshin', 'Lev', 'UOL Nomanz', 6, 3),
+('Botezatu', 'Antonio', 'UOL Frappii', 6, 4),
+('Lifashin', 'Aleksandr', 'UOL SaNTaS', 6, 5),
 
 #Funplus Phoenix
 
