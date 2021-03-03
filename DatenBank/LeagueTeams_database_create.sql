@@ -83,13 +83,88 @@ insert into t_team (te_name, te_kuerzel) values
 ('G2 ESports', 'G2'), ('Fnatic', 'FNC'),
 ('Rogue', 'RGE'), ('Schalke 04', 'S04'),
 ('SK Gaming', 'SK'), ('Unicorns of Love', 'UOL'),
-('Funplus Phoenix', 'FPX'), ('SKT1', 'T1'),
-('Damwon Gaming', 'DWG'), ('Invictus Gaming', 'IG');
+('Funplus Phoenix', 'FPX'), ('Vega Squadron', 'VEG'),
+('Damwon Gaming', 'DWG'), ('Gambit Esports', 'GMB');
 
 #spieler
-insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) Values
+insert into t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
+
+#G2 Esports
+
 ('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
 ('Winther','Rasmus', 'G2 Caps', 1, 3),
 ('Mehle', 'Mihael', 'G2 Mikyx', 1, 5),
 ('Hansen', 'Martin', 'G2 Wunder', 1, 1),
-('Jankowski', 'Marcin', 'G2 Jankos', 1, 2);
+('Jankowski', 'Marcin', 'G2 Jankos', 1, 2),
+
+#Fnatic
+
+('', '', '', 2, 1),
+('','', '', 2, 2),
+('', '', '', 2, 3),
+('', '', '', 3, 4),
+('', '', '', 3, 5),
+
+#Rogue
+
+('', '', '', 3, 1),
+('','', '', 3, 2),
+('', '', ' ', 3, 3),
+('', '', ' ', 3, 4),
+('', '', '', 3, 5),
+
+#Schalke 04
+
+('', '', '', 4, 1),
+('','', ' ', 4, 2),
+('', '', ' ', 4, 3),
+('', '', ' ', 4, 4),
+('', '', ' ', 4, 5),
+
+#SK Gaming
+
+('', '', ' ', 5, 1),
+('','', '', 5, 2),
+('', '', ' ', 5, 3),
+('', '', '', 5, 4),
+('', '', ' ', 5, 5),
+
+#Unicorns Of Love
+
+('', '', ' ', 6, 1),
+('','', ' ', 6, 2),
+('', '', ' ', 6, 3),
+('', '', ' ', 6, 4),
+('', '', ' ', 6, 5),
+
+#Funplus Phoenix
+
+('', '', '', 7, 1),
+('','', '', 7, 2),
+('', '', '', 7, 3),
+('', '', '', 7, 4),
+('', '', ' ', 7, 5),
+
+#Vega Squadron
+
+('', '', '', 8, 1),
+('','', '', 8, 2),
+('', '', '', 8, 3),
+('', '', '', 8, 4),
+('', '', '', 8, 5),
+
+#Damwon Gaming
+
+('', '', '', 9, 1),
+('','', '', 9, 2),
+('', '', '', 9, 3),
+('', '', '', 9, 4),
+('', '', '', 9, 5),
+
+#Gambit Esports
+
+('', '', '', 10, 1),
+('','', '', 10, 2),
+('', '', '', 10, 3),
+('', '', '', 10, 4),
+('', '', '', 10, 5);
