@@ -12,7 +12,7 @@
 
 <body>
 
-    <img src="Icons_Bilder/lol_icon.png" title = "LOL" alt="LoL-Icon">
+    <img src="pictures/LoL_icon.png" title = "LOL" alt="LoL-Icon">
     <h1>Willkommen auf LeagueTeams</h1>
     <br>
     <h3> Deine Seite mit allen wichtigen Infos</h3>
