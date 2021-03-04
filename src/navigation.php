@@ -33,6 +33,6 @@
       } ?> href="login.php" style="margin-top: 50px;"><span class="material-icons sidespace">login</span>Login</a>
 </div>
 
-<footer style=" font-size: xx-small; position: fixed; bottom: 0;">
+<footer style=" font-size: xx-small; position: fixed; bottom: 0; margin-left: 40px;">
   © Hilal, Lars, Patrick 2021
 </footer>

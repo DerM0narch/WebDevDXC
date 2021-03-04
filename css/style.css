@@ -83,7 +83,7 @@ html {
   padding-top: 60px;
   transition: 0.3s;
 }
-/* FIXME fix Navbar */
+
 .sidenav a {
   padding: 8px 0px 8px 8px;
   text-decoration: none;
@@ -119,6 +119,9 @@ html {
 
 .row {
   display: flex;
+}
+.sideways {
+  margin-left: 40px;
 }
 
 .col {
