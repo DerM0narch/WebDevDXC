@@ -39,8 +39,7 @@
         <center>
             <br>
             <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-            <center>
-
+        <center>
     </div>
 </body>
 
