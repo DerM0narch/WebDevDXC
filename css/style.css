@@ -109,3 +109,12 @@ html {
   margin: 5px;
   font-family: monospace;
 }
+
+.zentrierterText {
+  text-align: center;
+}
+
+.zentrierterTabelle {
+  margin-left: auto;
+  margin-right: auto;
+}
