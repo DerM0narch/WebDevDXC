@@ -26,8 +26,10 @@
             </tr>
         </table>
         <br>
+        <center>
         <button type="submit" onclick="window.location.href='index.php'"> Login </button>
         <br>
+        <center>
         <br>
         <center>
             Noch nicht registriert? <br>
