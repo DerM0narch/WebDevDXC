@@ -30,7 +30,8 @@
 
                         if (!$insert) {
                             echo mysqli_error($conn);
-                        } else {
+                        } 
+                        else {
                             header("Location: reg_bestätigung.php");
                         }
                     }
@@ -59,7 +60,7 @@
                         </table>
                         <center>
                             <button type="submit" name="submit" value="submit"> Registrieren </button>
-                            <center>
+                        <center>
                     </form>
                     <br>
 </body>
