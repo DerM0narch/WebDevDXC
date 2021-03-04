@@ -8,6 +8,7 @@
     <title>Registrieren</title>
     <link rel="stylesheet" href="css/style.css">
     <?php include 'src/navigation.php' ?>
+    <?php include 'src/db_conn.php' ?>
 </head>
 
 <body>
