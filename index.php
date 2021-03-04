@@ -20,6 +20,7 @@
                 <i class="fas fa-clock"></i> <b style="font-size: large;"> Nächstes Spiel</b>
                 <hr>
                 <!-- TODO Select Befehl für nächstes Spiel -->
+                <?php include 'src/index_nextgame.php' ?>
             </div>
             <div class="col">
                 <i class="fas fa-trophy"></i> <b style="font-size: large;"> Top 3</b>
