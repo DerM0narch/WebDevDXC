@@ -19,36 +19,14 @@
             <div class="col">
                 <i class="fas fa-clock"></i> <b style="font-size: large;"> Nächstes Spiel</b>
                 <hr>
-                <!-- TODO Select Befehl für nächstes Spiel -->
+                <!-- TODO #2 Select Befehl für nächstes Spiel -->
+                <?php include 'src/index_nextgame.php' ?>
             </div>
             <div class="col">
                 <i class="fas fa-trophy"></i> <b style="font-size: large;"> Top 3</b>
                 <hr>
-                <!-- TODO Select Befehl für die Top 3 Teams bei Siegen -->
-                <?php
-                $sql = "SELECT * FROM t_gesamt_stats ORDER BY s_win DESC LIMIT 3";
-                if ($result = mysqli_query($conn, $sql)) {
-                    if (mysqli_num_rows($result) > 0) {
-                        echo "<table>";
-                        echo "<tr>";
-                        echo "<th>TEAM</th>";
-                        echo "<th>SIEGE</th>";
-                        echo "</tr>";
-                        while ($row = mysqli_fetch_array($result)) {
-                            echo "<tr>";
-                            echo "<td>" . $row['te_name'] . "</td>";
-                            echo "<td>" . $row['s_win'] . "</td>";
-                            echo "</tr>";
-                        }
-                        echo "</table>";
-                        mysqli_free_result($result);
-                    } else {
-                        echo "Es wurden keine Ergebnisse gefunden!";
-                    }
-                } else {
-                    echo "ERROR: $sql. " . mysqli_error($link);
-                }
-                ?>
+                <!-- TODO #3 Select Befehl für die Top 3 Teams bei Siegen -->
+                <?php include 'src/index_topthree.php' ?>
             </div>
         </div>
     </div>

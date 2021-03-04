@@ -4,7 +4,7 @@ drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
 
-#Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match), Users
+#Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match), User
 
 create table if not exists t_rolle 
 (
@@ -104,14 +104,19 @@ INSERT INTO t_rolle (r_bezeichnung) VALUES
 
 INSERT INTO t_team (te_name, te_kuerzel) VALUES
 
-('G2 ESports', 'G2'), ('Fnatic', 'FNC'),
-('Rogue', 'RGE'), ('Schalke 04', 'S04'),
-('SK Gaming', 'SK'), ('Unicorns of Love', 'UOL'),
-('Funplus Phoenix', 'FPX'), ('Vega Squadron', 'VEG'),
-('Damwon Gaming', 'DWG'), ('Gambit Esports', 'GMB');
+('G2 ESports', 'G2'), 
+('Fnatic', 'FNC'),
+('Rogue', 'RGE'), 
+('Schalke 04', 'S04'),
+('SK Gaming', 'SK'), 
+('Unicorns of Love', 'UOL'),
+('Funplus Phoenix', 'FPX'), 
+('Vega Squadron', 'VEG'),
+('Damwon Gaming', 'DWG'), 
+('Gambit Esports', 'GMB');
 
 
-#Spieler
+#Active Roster  
 
 INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
@@ -155,7 +160,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Massol', 'Jean', 'SK Jezu', 5, 4),
 ('Wessén', 'Erik', 'SK Treatz', 5, 5),
 
-#Unicorns Of Love Region CIS
+#Unicorns Of Love - Region CIS
 
 ('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
 ('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
