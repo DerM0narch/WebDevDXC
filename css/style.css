@@ -69,31 +69,52 @@ html {
   background-color: rgba(200, 150, 255, 1);
 }
 
-.topnav {
-  background-color: #1b1b2f;
-  border-radius: 8px;
-  height: 48px;
-}
-.topnav a {
+.sidenav {
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  margin-bottom: 100%;
   float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
+  z-index: 5;
+  top: 0;
+  left: 0;
+  background-color: #1b1b2f;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.3s;
+}
+/* FIXME fix Navbar */
+.sidenav a {
+  padding: 8px 0px 8px 8px;
   text-decoration: none;
-  font-size: 17px;
-  margin-right: 5px;
-  font-family: monospace;
-  border-radius: 8px;
+  margin-right: 50px;
+  right: 50px;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  white-space: nowrap;
 }
 
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
+.sidenav a:hover {
+  color: #d6d6d6;
 }
 
-.topnav a.active {
-  background-color: #33557e;
+.sidenav a.active {
   color: white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+.sidespace {
+  margin-right: 25px;
+  margin-left: 0px;
 }
 
 .row {
