@@ -29,7 +29,7 @@
                         $insert = mysqli_query($conn, "INSERT INTO t_user (u_email, u_username, u_passwort) VALUES ('$u_email','$u_username', '$u_passwort')");
 
                         if (!$insert) {
-                            echo mysqli_error();
+                            echo mysqli_error($conn);
                         } else {
                             header("Location: reg_bestätigung.php");
                         }
