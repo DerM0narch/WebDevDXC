@@ -41,20 +41,20 @@
 
                         <table class="zentrierterTabelle">
                             <tr>
-                                <td>E-mail</td>
-                                <td><input type="email" name="email" placeholder="bitte Mailadresse eintragen"></td>
+                                <td>E-mail:</td>
+                                <td><input type="email" name="email"></td>
                             </tr>
                             <tr>
-                                <td>Benutername</td>
-                                <td><input type="text" name="reg_benutzername" placeholder="Benutzername"></td>
+                                <td>Benutername:</td>
+                                <td><input type="text" name="reg_benutzername"></td>
                             </tr>
                             <tr>
-                                <td>Passwort</td>
-                                <td><input type="password" name="reg_passwort" placeholder="********"></td>
+                                <td>Passwort:</td>
+                                <td><input type="password" name="reg_passwort"></td>
                             </tr>
                             <tr>
-                                <td>Passwort wiederholen</td>
-                                <td><input type="password" name="reg.wie.passwort" placeholder="********"></td>
+                                <td>Passwort wiederholen:</td>
+                                <td><input type="password" name="reg.wie.passwort"></td>
                             </tr>
                         </table>
                         <center>
