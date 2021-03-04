@@ -28,10 +28,6 @@
                 </tr>
             </table>
             <br>
-<<<<<<< HEAD
-            <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-        <center>
-=======
             <center>
                 <button class="bigbutton" type="submit" onclick="window.location.href='index.php'"><span>Login </span></button>
                 <br>
@@ -47,7 +43,6 @@
                         <center>
         </div>
 
->>>>>>> b40a93ec5fa2d64663c9523a64c01c703cc21d4b
     </div>
 </body>
 
