@@ -19,13 +19,13 @@
             <div class="col">
                 <i class="fas fa-clock"></i> <b style="font-size: large;"> Nächstes Spiel</b>
                 <hr>
-                <!-- TODO Select Befehl für nächstes Spiel -->
+                <!-- TODO #2 Select Befehl für nächstes Spiel -->
                 <?php include 'src/index_nextgame.php' ?>
             </div>
             <div class="col">
                 <i class="fas fa-trophy"></i> <b style="font-size: large;"> Top 3</b>
                 <hr>
-                <!-- TODO Select Befehl für die Top 3 Teams bei Siegen -->
+                <!-- TODO #3 Select Befehl für die Top 3 Teams bei Siegen -->
                 <?php include 'src/index_topthree.php' ?>
             </div>
         </div>
