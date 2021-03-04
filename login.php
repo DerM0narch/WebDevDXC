@@ -7,15 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
     <?php include 'src/navigation.php' ?>
 </head>
 
 <body>
-    <br>
-    <h3 class="zentrierterText"> Login </h3>
-    <br>
-        <table class="zentrierterTabelle"> 
+    <div class="sideways">
+        <br>
+        <h3 class="zentrierterText"> Login </h3>
+        <br>
+        <table class="zentrierterTabelle">
             <tr>
                 <td>Benutzername:</td>
                 <td> <input type="text" name="Benutzername" placeholder="Benutzername" class="zentrierterText"> </td>
@@ -36,7 +37,9 @@
         <center>
             <br>
             <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-        <center>
+            <center>
+
+    </div>
 </body>
 
 </html>
