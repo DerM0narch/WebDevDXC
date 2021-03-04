@@ -40,7 +40,7 @@
                     </table>
                     <br>
                     <center>
-                        <button class="bigbutton" type="submit" onclick="window.location.href='reg.bestätigung.php'"> <span>Registrieren </span> </button>
+                        <button class="bigbutton" type="submit" onclick="window.location.href='reg_bestätigung.php'"> <span>Registrieren </span> </button>
                         <center>
         </div>
     </div>
