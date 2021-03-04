@@ -14,29 +14,19 @@
 <body>
     <div class="sideways">
         <br>
-        <h3 class="zentrierterText"> Login </h3>
-        <br>
-        <table class="zentrierterTabelle">
-            <tr>
-                <td>Benutzername:</td>
-                <td> <input type="text" name="Benutzername" placeholder="Benutzername" class="zentrierterText"> </td>
-            </tr>
-            <tr>
-                <td>Kennwort:</td>
-                <td><Input type="password" name="password" placeholder="Kennwort" class="zentrierterText"></td>
-            </tr>
-        </table>
-        <br>
-        <center>
-        <button type="submit" onclick="window.location.href='index.php'"> Login </button>
-        <br>
-        <center>
-        <br>
-        <center>
-            Noch nicht registriert? <br>
-            Dann melden Sie sich schnell an! <br>
-        </center>
-        <center>
+        <div class="divbox">
+            <h3 class="zentrierterText"> Login </h3>
+            <br>
+            <table class="zentrierterTabelle">
+                <tr>
+                    <td>Benutzername:</td>
+                    <td> <input type="text" name="Benutzername" class="zentrierterText"> </td>
+                </tr>
+                <tr>
+                    <td>Kennwort:</td>
+                    <td><Input type="password" name="password" class="zentrierterText"></td>
+                </tr>
+            </table>
             <br>
             <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
         <center>

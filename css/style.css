@@ -142,3 +142,48 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+.zentrierterTabelle input {
+  border: 0px;
+  border-radius: 4px;
+  background-color: #2f5b91;
+  color: #fff;
+}
+
+.zentrierterTabelle ::placeholder {
+  color: rgba(255, 255, 255, 0.712);
+}
+
+.divbox {
+  flex: 1;
+  display: table;
+  position: absolute;
+  top: 25%;
+  left: 45%;
+  background-color: #1b1b2f;
+  border-radius: 8px;
+  border: 0px;
+  padding: 1em;
+  margin: 5px;
+}
+
+.divboxreg {
+  flex: 1;
+  display: table;
+  position: absolute;
+  top: 25%;
+  left: 40%;
+  background-color: #1b1b2f;
+  border-radius: 8px;
+  border: 0px;
+  padding: 1em;
+  margin: 5px;
+}
+
+.divbox td {
+  text-align: end;
+}
+
+.divboxreg td {
+  text-align: end;
+}

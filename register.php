@@ -12,17 +12,17 @@
 </head>
 
 <body>
-    <br>
-    <br>
-    <center>
-        <h3>Registrierung</h3> <br>
-    <center>
-    <!-- TODO insert into t_user (e-mail, username, passwort)
+    <div class="sideways">
+        <div class="divboxreg">
+            <center>
+                <h3> Registrierung</h3> <br>
+                <center>
+                    <!-- TODO insert into users (e-mail, username, passwort)
     check if passwort und wiederholtes Passwort gleich sonst wiederholung-->
     <?php
 
         if(isset($_POST['submit']))
-        {        
+        {
             $u_email = $_POST['email'];
             $u_username = $_POST['reg_benutzername'];
             $u_passwort = $_POST['reg_passwort'];
@@ -45,20 +45,20 @@
 
         <table class="zentrierterTabelle">
             <tr>
-                <td>E-mail</td> 
-                <td><input type="email" name="email" placeholder="bitte Mailadresse eintragen"></td>        
+                <td>E-mail</td>
+                <td><input type="email" name="email" placeholder="bitte Mailadresse eintragen"></td>
             </tr>
             <tr>
                 <td>Benutername</td>
-                <td><input type="text" name="reg_benutzername" placeholder="Benutzername"></td>        
+                <td><input type="text" name="reg_benutzername" placeholder="Benutzername"></td>
             </tr>
             <tr>
                 <td>Passwort</td>
-                <td><input type="password" name="reg_passwort" placeholder="********"></td>        
+                <td><input type="password" name="reg_passwort" placeholder="********"></td>
             </tr>
             <tr>
                 <td>Passwort wiederholen</td>
-                <td><input type="password" name="reg.wie.passwort" placeholder="********"></td>        
+                <td><input type="password" name="reg.wie.passwort" placeholder="********"></td>
             </tr>
         </table>
         <center>
@@ -66,7 +66,7 @@
         <center>
     </form>
     <br>
-    
+
 </body>
 
 </html>
