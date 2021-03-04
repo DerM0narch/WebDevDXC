@@ -4,7 +4,7 @@ drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
 
-#Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match)
+#Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match), Users
 
 create table if not exists t_rolle 
 (
@@ -75,6 +75,16 @@ Create table if not exists t_spiel_stats
   primary key (ss_sp_id),
   foreign key (ss_sp_id) references t_team(te_id)
 );
+
+CREATE TABLE if NOT EXISTS t_user
+(
+	u_id INT AUTO_INCREMENT,
+	u_email VARCHAR(100) NOT NULL,
+	u_username VARCHAR(20) NOT NULL,
+	u_passwort VARCHAR(20) NOT NULL,
+	u_rolle VARCHAR(10) DEFAULT 'user',
+	PRIMARY KEY (u_id)
+); 
 
 
 #INSERT INTO

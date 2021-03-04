@@ -16,7 +16,7 @@
     <center>
         <h3>Registrierung</h3> <br>
     <center>
-    <!-- TODO insert into users (e-mail, username, passwort)
+    <!-- TODO insert into t_user (e-mail, username, passwort)
     check if passwort und wiederholtes Passwort gleich sonst wiederholung-->
     
     <table class="zentrierterTabelle">
