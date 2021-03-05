@@ -17,7 +17,7 @@
             <center>
                 <h3> Registrierung</h3> <br>
                 <center>
-                    <!-- TODO insert into users (e-mail, username, passwort)
+                    <!-- TODO #5 insert into users (e-mail, username, passwort)
     check if passwort und wiederholtes Passwort gleich sonst wiederholung-->
                     <?php
 
@@ -30,8 +30,7 @@
 
                         if (!$insert) {
                             echo mysqli_error($conn);
-                        } 
-                        else {
+                        } else {
                             header("Location: reg_bestätigung.php");
                         }
                     }
@@ -60,7 +59,7 @@
                         </table>
                         <center>
                             <button type="submit" name="submit" value="submit"> Registrieren </button>
-                        <center>
+                            <center>
                     </form>
                     <br>
 </body>
