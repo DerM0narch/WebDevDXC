@@ -17,8 +17,6 @@
             <center>
                 <h3> Registrierung</h3> <br>
                 <center>
-                    <!-- TODO #5 insert into users (e-mail, username, passwort)
-    check if passwort und wiederholtes Passwort gleich sonst wiederholung-->
                     <?php
 
                     if (isset($_POST['submit'])) {
