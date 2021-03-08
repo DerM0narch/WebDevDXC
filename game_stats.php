@@ -54,6 +54,9 @@
             <tr>
                 <td>
                     <!-- Icon Blue Kills-->
+                    
+                    <img src = "pictures/sword.png">
+
                 </td>
                 <td><!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
                     <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,1);"> 
@@ -68,12 +71,16 @@
                 </td>
                 <td>
                     <!-- Icon Red Kills-->
+                    <img src = "pictures/sword.png">
+
                 </td>
             </tr>
             <!-- Turrets-->
             <tr>
                 <td>
                     <!-- Icon Blue Turrets-->
+                    <img src = "pictures/Turret_blue.png">
+
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
@@ -89,12 +96,15 @@
                 </td>
                 <td>
                     <!-- Icon Red Turrets-->
+                    <img src = "pictures/Turret_red.png">
                 </td>
             </tr>
             <!-- Drakes-->
+           
             <tr>
                 <td>
                     <!-- Icon Blue Drakes-->
+                    <img src = "pictures/Dragon_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
@@ -110,12 +120,14 @@
                 </td>
                 <td>
                     <!-- Icon Red Drakes-->
+                    <img src = "pictures/Dragon_red.png">
                 </td>
             </tr>
             <!--Nashes-->
             <tr>
                 <td>
                     <!-- Icon Blue Nashes-->
+                    <img src = "pictures/Nashor_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
@@ -131,12 +143,14 @@
                 </td>
                 <td>
                     <!-- Icon Red Nashes-->
+                    <img src = "pictures/Nashor_red.png">
                 </td>
             </tr>
             <!--Inhibs-->
             <tr>
                 <td>
                     <!-- Icon Blue Inhibs-->
+                    <img src = "pictures/Inhibitor_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
@@ -152,6 +166,7 @@
                 </td>
                 <td>
                     <!-- Icon Red Inhibs-->
+                    <img src = "pictures/Inhibitor_red.png">
                 </td>
             </tr>
         </table>
