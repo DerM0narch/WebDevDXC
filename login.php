@@ -83,13 +83,8 @@
             </center>
             <center>
                 <br>
-<<<<<<< HEAD
-                <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-            </center>
-=======
                 <a href="register.php" class="btna">Registrierung</a>
                 <center>
->>>>>>> 65cd3b1a8da324848cc5872c150f8aa00207940e
 
         </div>
 
