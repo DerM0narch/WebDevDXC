@@ -18,7 +18,7 @@
         in den Zeilen die Ereignissymbole plus Schaltflächen zum hoch und runter zählen für beide Teams
         button zur auswahl des Siegers je nach team färbt er sich
         Submit button-->
-        <table border=3>
+        <img src = "pictures/LoL_transparent.png"> <table border=3>
             <tr>
                 <th>
                     <form action="#">
