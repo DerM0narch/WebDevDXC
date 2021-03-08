@@ -187,3 +187,19 @@ html {
 .divboxreg td {
   text-align: end;
 }
+
+.btna {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 8px;
+  background-color: #2f5b91;
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+  padding: 4px;
+}
+
+.btna:hover {
+  background-color: #3b75bb;
+}

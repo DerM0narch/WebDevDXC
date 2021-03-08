@@ -83,7 +83,7 @@
             </center>
             <center>
                 <br>
-                <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
+                <a href="register.php" class="btna">Registrierung</a>
                 <center>
 
         </div>
