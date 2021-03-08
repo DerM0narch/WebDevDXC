@@ -55,8 +55,9 @@
                                 <td><input type="password" name="reg.wie.passwort"></td>
                             </tr>
                         </table>
+                        <br>
                         <center>
-                            <button type="submit" name="submit" value="submit"> Registrieren </button>
+                            <button type="submit" name="submit" value="submit" class="btna" style="border:0px;"> Registrieren </button>
                             <center>
                     </form>
                     <br>
