@@ -74,7 +74,7 @@
                 <center>
                     <button class="bigbutton" type="submit" onclick="window.location.href='index.php'"><span>Login </span></button>
                     <br>
-                    <center>
+                </center>
             </form>
             <br>
             <center>
@@ -84,7 +84,7 @@
             <center>
                 <br>
                 <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-                <center>
+            </center>
 
         </div>
 
