@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- TODO #8 Select Befehl für Spieler schreiben und Seite designen -->
     <div class="sideways">
 
     </div>

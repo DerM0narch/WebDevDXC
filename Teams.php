@@ -11,7 +11,7 @@
 </head>
 
 <body>
-    <!-- TODO Select Befehl für Matches schreiben und Seite designen -->
+    <!-- TODO #7 Select Befehl für Teams schreiben und Seite designen -->
     <div class="sideways">
 
     </div>
