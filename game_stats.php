@@ -18,7 +18,7 @@
         in den Zeilen die Ereignissymbole plus Schaltflächen zum hoch und runter zählen für beide Teams
         button zur auswahl des Siegers je nach team färbt er sich
         Submit button-->
-        <table border=3>
+        <table class="drop">
             <tr>
                 <th>
                     <form action="#">
@@ -30,15 +30,15 @@
                                 <option>Spiel 4</option>
                             </select>
                         </label>
-                    </form> 
-                </th> 
+                    </form>
+                </th>
             </tr>
         </table>
         <br>
-        <table border=3>
+        <table class="stat">
             <tr>
                 <th>
-                    
+
                 </th>
                 <th>
                     Blue Side
@@ -47,31 +47,32 @@
                     Red Side
                 </th>
                 <th>
-                    
-                </th> 
+
+                </th>
             </tr>
             <!--kills-->
             <tr>
                 <td>
                     <!-- Icon Blue Kills-->
-                    
-                    <img src = "pictures/sword.png">
 
-                </td>
-                <td><!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,1);"> 
-                    <input type="text" name="tbki" id="E1S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(1,1);">
+                    <img src="pictures/sword.png">
+
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,2);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,1);">
+                    <input type="text" name="tbki" id="E1S1" value=0 readonly>
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(1,1);">
+                </td>
+                <td>
+                    <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,2);">
                     <input type="text" name="tbki" id="E1S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(1,2);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(1,2);">
                 </td>
                 <td>
                     <!-- Icon Red Kills-->
-                    <img src = "pictures/sword.png">
+                    <img src="pictures/sword.png">
 
                 </td>
             </tr>
@@ -79,101 +80,101 @@
             <tr>
                 <td>
                     <!-- Icon Blue Turrets-->
-                    <img src = "pictures/Turret_blue.png">
+                    <img src="pictures/Turret_blue.png">
 
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,1);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,1);">
                     <input type="text" name="tbki" id="E2S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(2,1);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(2,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,2);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,2);">
                     <input type="text" name="tbki" id="E2S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(2,2);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(2,2);">
                 </td>
                 <td>
                     <!-- Icon Red Turrets-->
-                    <img src = "pictures/Turret_red.png">
+                    <img src="pictures/Turret_red.png">
                 </td>
             </tr>
             <!-- Drakes-->
-           
+
             <tr>
                 <td>
                     <!-- Icon Blue Drakes-->
-                    <img src = "pictures/Dragon_blue.png">
+                    <img src="pictures/Dragon_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,1);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,1);">
                     <input type="text" name="tbki" id="E3S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(3,1);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(3,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,2);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,2);">
                     <input type="text" name="tbki" id="E3S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(3,2);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(3,2);">
                 </td>
                 <td>
                     <!-- Icon Red Drakes-->
-                    <img src = "pictures/Dragon_red.png">
+                    <img src="pictures/Dragon_red.png">
                 </td>
             </tr>
             <!--Nashes-->
             <tr>
                 <td>
                     <!-- Icon Blue Nashes-->
-                    <img src = "pictures/Nashor_blue.png">
+                    <img src="pictures/Nashor_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,1);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,1);">
                     <input type="text" name="tbki" id="E4S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(4,1);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(4,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,2);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,2);">
                     <input type="text" name="tbki" id="E4S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(4,2);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(4,2);">
                 </td>
                 <td>
                     <!-- Icon Red Nashes-->
-                    <img src = "pictures/Nashor_red.png">
+                    <img src="pictures/Nashor_red.png">
                 </td>
             </tr>
             <!--Inhibs-->
             <tr>
                 <td>
                     <!-- Icon Blue Inhibs-->
-                    <img src = "pictures/Inhibitor_blue.png">
+                    <img src="pictures/Inhibitor_blue.png">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,1);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,1);">
                     <input type="text" name="tbki" id="E5S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(5,1);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(5,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,2);"> 
+                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,2);">
                     <input type="text" name="tbki" id="E5S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus"  id="tbkiplus" onclick="countup(5,2);">
+                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(5,2);">
                 </td>
                 <td>
                     <!-- Icon Red Inhibs-->
-                    <img src = "pictures/Inhibitor_red.png">
+                    <img src="pictures/Inhibitor_red.png">
                 </td>
             </tr>
         </table>
 
 
-      
-    
+
+
 
 
 

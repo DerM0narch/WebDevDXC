@@ -203,3 +203,80 @@ html {
 .btna:hover {
   background-color: #3b75bb;
 }
+
+.stat {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 25%;
+  border-color: #fff;
+  border: 2px solid white;
+  border-left: 2px solid white;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.stat td {
+  border-left: 2px solid white;
+  border-bottom: 0.5px solid grey;
+  border-radius: 8px;
+}
+
+.stat th {
+  border-bottom: 2px solid white;
+}
+
+.stat img {
+  width: 40px;
+  height: 40px;
+}
+
+.stat input {
+  border: 0;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  border-radius: 8px;
+  text-align: center;
+  background-color: #1b1b2f;
+  margin: 10px;
+  width: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-size: small;
+  padding: 4px;
+}
+
+.stat input[type="button"] {
+  width: 20px;
+  background-color: #2f5b91;
+  margin: 5px;
+}
+
+.drop {
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  border-color: #fff;
+  border: 1px solid white;
+  text-align: center;
+}
+
+.drop select {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 8px;
+  background-color: #2f5b91;
+  margin: 5px;
+  color: #fff;
+}
+.drop option {
+  width: 20px;
+  border-radius: 8px;
+  background-color: #2f5b91;
+  margin: 5px;
+  color: #fff;
+}
+
+.drop label {
+  padding-left: 5px;
+}
