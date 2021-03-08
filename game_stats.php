@@ -13,13 +13,18 @@
 
 <body>
     <div class="sideways">
+        <!-- Dropdownliste zur Auswahl der Spiele 
+        in den Zeilen die Ereignissymbole plus Schaltflächen zum hoch und runter zählen für beide Teams
+        button zur auswahl des Siegers je nach team färbt er sich
+        Submit button-->
+
       
     
 
 
 
 
-    
+
     </div>
     <script src="js/main.js"></script>
 </body>
