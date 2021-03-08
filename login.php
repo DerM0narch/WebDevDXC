@@ -12,25 +12,25 @@
 </head>
 
 <body>
-    <?php 
+    <?php
     //session_start();
-       
-   // if(isset($_GET['Login'])) {
-     //   $Benutzername = $_POST['Benutzername'];
-       // $passwort = $_POST['password'];
-        
+
+    // if(isset($_GET['Login'])) {
+    //   $Benutzername = $_POST['Benutzername'];
+    // $passwort = $_POST['password'];
+
     //    $statement = $pdo->prepare("SELECT * FROM t_user WHERE email = :email");
-     //   $result = $statement->execute(array('email' => $email));
-     //   $user = $statement->fetch();
-            
-        //Überprüfung des Passworts
-       // if ($user !== false && password_verify($passwort, $user['passwort'])) {
-         //   $_SESSION['userid'] = $user['id'];
-          //  die('Login erfolgreich. Weiter zu <a href="geheim.php">internen Bereich</a>');
-        // } else {
-           // $errorMessage = "E-Mail oder Passwort war ungültig<br>";
-        //}
-        
+    //   $result = $statement->execute(array('email' => $email));
+    //   $user = $statement->fetch();
+
+    //Überprüfung des Passworts
+    // if ($user !== false && password_verify($passwort, $user['passwort'])) {
+    //   $_SESSION['userid'] = $user['id'];
+    //  die('Login erfolgreich. Weiter zu <a href="geheim.php">internen Bereich</a>');
+    // } else {
+    // $errorMessage = "E-Mail oder Passwort war ungültig<br>";
+    //}
+
     //}
     ?>
     <div class="sideways">
@@ -38,9 +38,6 @@
         <div class="divbox">
             <h3 class="zentrierterText"> Login </h3>
             <br>
-<<<<<<< HEAD
-            <form method="POST">
-=======
             <!-- FIXME #4 Login Formular -->
             <?php
             if (isset($_GET['login'])) {
@@ -63,7 +60,6 @@
             }
             ?>
             <form action="?login=1" method="POST">
->>>>>>> f39377b9262b9362cd12481ad79d8459392dfe73
                 <table class="zentrierterTabelle">
                     <tr>
                         <td>Benutzername:</td>
@@ -75,38 +71,21 @@
                     </tr>
                 </table>
                 <br>
-<<<<<<< HEAD
-                    <center>
-                        <button class="bigbutton" type="submit" onclick="window.location.href='index.php'"><span>Login </span></button>
-                        <br>
-                    <center>
-            </form>
-                        <br>
-                <center>
-                    Noch nicht registriert? <br>
-                    Dann melden Sie sich schnell an! <br>
-                </center>
-                <center>
-                    <br>
-                    <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-                <center>
-            
-=======
                 <center>
                     <button class="bigbutton" type="submit" onclick="window.location.href='index.php'"><span>Login </span></button>
                     <br>
                     <center>
-                        <br>
-                        <center>
-                            Noch nicht registriert? <br>
-                            Dann melden Sie sich schnell an! <br>
-                        </center>
-                        <center>
-                            <br>
-                            <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
-                            <center>
             </form>
->>>>>>> f39377b9262b9362cd12481ad79d8459392dfe73
+            <br>
+            <center>
+                Noch nicht registriert? <br>
+                Dann melden Sie sich schnell an! <br>
+            </center>
+            <center>
+                <br>
+                <button type="submit" onclick="window.location.href='register.php'"> Registrierung </button>
+                <center>
+
         </div>
 
     </div>
