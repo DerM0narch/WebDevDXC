@@ -24,7 +24,7 @@
                     <form action="#">
                         <label>Spielauswahl:
                             <select name="nextGame">
-                                <?php include 'src/teams_select.php' ?>
+                                <?php include 'src/game_select.php' ?>
                             </select>
                         </label>
                     </form>
