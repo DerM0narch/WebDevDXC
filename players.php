@@ -39,7 +39,7 @@
         <br>
         <table border="3">
             <tr>
-            <!-- Ingamenamen per Selectbefehl anhand der rollenID-->
+            <!-- Ingamenamen per Selectbefehl anhand der rollenID und nach de ausgewählten team-->
                 <th>
                     Ingamename Toplane
                 </th>
