@@ -1,21 +1,29 @@
 #League Of Legends Website/APP
+
 drop database if exists LeagueTeams;
 create database if not exists LeagueTeams;
 use LeagueTeams;
+
 #Tabellen Rolle (Lane), Teams, Spieler, Stats (gesamte Matches), Spieltag, Stats (Match), User
-create table if not exists t_rolle (
+
+create table if not exists t_rolle 
+(
   r_id int auto_increment not null,
   r_bezeichnung varchar(25),
   primary key (r_id)
 );
-create table if not exists t_team (
+
+create table if not exists t_team 
+(
   te_id int auto_increment not null,
   te_name varchar(50),
   te_pic_path varchar(200),
   te_kuerzel varchar(3),
   primary key (te_id)
 );
-create table if not exists t_player (
+
+create table if not exists t_player 
+(
   p_id int auto_increment not null,
   p_name varchar(25),
   p_vname varchar(25),
@@ -27,8 +35,10 @@ create table if not exists t_player (
   primary key (p_id),
   foreign key (p_team) references t_team(te_id),
   foreign KEY (p_r_rolle) references t_rolle(r_id)
+  
 );
-CREATE TABLE if NOT EXISTS t_gesamt_stats (
+CREATE TABLE if NOT EXISTS t_gesamt_stats 
+(
   s_te_id INT auto_increment not null,
   s_win INT,
   s_loose INT,
@@ -37,7 +47,9 @@ CREATE TABLE if NOT EXISTS t_gesamt_stats (
   PRIMARY KEY (s_te_id),
   FOREIGN KEY (s_te_id) REFERENCES t_team(te_id)
 );
-Create table if not exists t_spieltag (
+
+Create table if not exists t_spieltag 
+(
   sp_id int auto_increment not null,
   sp_tag int not null,
   sp_blue_side int,
@@ -47,7 +59,9 @@ Create table if not exists t_spieltag (
   foreign key (sp_blue_side) references t_team(te_id),
   foreign key (sp_red_side) references t_team(te_id)
 );
-Create table if not exists t_spiel_stats (
+
+Create table if not exists t_spiel_stats 
+(
   ss_sp_id int auto_increment not null,
   ss_blue_kills int,
   ss_blue_drakes int,
@@ -62,7 +76,9 @@ Create table if not exists t_spiel_stats (
   primary key (ss_sp_id),
   foreign key (ss_sp_id) references t_team(te_id)
 );
-CREATE TABLE if NOT EXISTS t_user (
+
+CREATE TABLE if NOT EXISTS t_user 
+(
   u_id INT AUTO_INCREMENT,
   u_email VARCHAR(100) NOT NULL,
   u_username VARCHAR(20) NOT NULL,
@@ -70,8 +86,12 @@ CREATE TABLE if NOT EXISTS t_user (
   u_rolle VARCHAR(10) DEFAULT 'user',
   PRIMARY KEY (u_id)
 );
+
+
 #INSERT INTO
+
 #Rollen
+
 INSERT INTO
   t_rolle (r_bezeichnung)
 VALUES
@@ -80,7 +100,9 @@ VALUES
   ('Midlane'),
   ('Botlane'),
   ('Support');
+  
 #Teams
+
 INSERT INTO
   t_team (te_name, te_pic_path, te_kuerzel)
 VALUES
@@ -134,6 +156,7 @@ VALUES
     'pictures/Team_Logos/Gambit_logo.png',
     'GMB'
   );
+  
 #Active Roster
 
 INSERT INTO t_player (p_name, p_vname, p_ingamename, p_herkunft, p_team, p_r_rolle) VALUES
