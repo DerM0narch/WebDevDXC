@@ -24,6 +24,7 @@
             <tr>
                 <th>
                     <form action="#">
+<<<<<<< HEAD
                         <select name="Game">
                             <option value=0>Bitte wählen</option>
                             <?php
@@ -37,6 +38,13 @@
                                 }
                             ?>
                         </select>
+=======
+                        <label>Spielauswahl:
+                            <select name="nextGame">
+                                <?php include 'src/game_select.php' ?>
+                            </select>
+                        </label>
+>>>>>>> a6ab6001c1422bc94976c445b750c182fdbb57ad
                     </form>
                 </th>
             </tr>
