@@ -103,59 +103,37 @@ VALUES
   
 #Teams
 
-INSERT INTO
-  t_team (te_name, te_pic_path, te_kuerzel)
-VALUES
-  (
-    'G2 ESports',
-    'pictures/Team_Logos/G2_logo.png',
-    'G2'
-  ),
-  (
-    'Fnatic',
-    'pictures/Team_Logos/Fnatic_logo.png',
-    'FNC'
-  ),
-  (
-    'Rogue',
-    'pictures/Team_Logos/Rogue_logo.png',
-    'RGE'
-  ),
-  (
-    'Schalke 04',
-    'pictures/Team_Logos/Schalke04_logo.png',
-    'S04'
-  ),
-  (
-    'SK Gaming',
-    'pictures/Team_Logos/SKGaming_logo.png',
-    'SK'
-  ),
-  (
-    'Unicorns of Love.cis',
-    'pictures/Team_Logos/UOF_logo.png',
-    'UOL'
-  ),
-  (
-    'Funplus Phoenix',
-    'pictures/Team_Logos/FPX_logo.png',
-    'FPX'
-  ),
-  (
-    'Vega Squadron',
-    'pictures/Team_Logos/VEG_logo.png',
-    'VEG'
-  ),
-  (
-    'Damwon Gaming',
-    'pictures/Team_Logos/DWG_logo.png',
-    'DWG'
-  ),
-  (
-    'Gambit Esports',
-    'pictures/Team_Logos/Gambit_logo.png',
-    'GMB'
-  );
+INSERT INTO t_team (te_name, te_pic_path, te_kuerzel) VALUES
+
+	#G2
+  ('G2 ESports', 'pictures/Team_Logos/G2_logo.png', 'G2'),
+  
+  #Fnatic
+  ('Fnatic', 'pictures/Team_Logos/Fnatic_logo.png', 'FNC'),
+  
+  #Rogue
+  ('Rogue', 'pictures/Team_Logos/Rogue_logo.png', 'RGE'),
+  
+  #Schalke 04 
+  ('Schalke 04', 'pictures/Team_Logos/Schalke04_logo.png', 'S04'),
+  
+  #SK Gaming
+  ('SK Gaming', 'pictures/Team_Logos/SKGaming_logo.png', 'SK'),
+  
+  #Unicorns Of Love.cis
+  ('Unicorns of Love.cis', 'pictures/Team_Logos/UOF_logo.png', 'UOL'),
+  
+  #Funplus Phoenix
+  ('Funplus Phoenix', 'pictures/Team_Logos/FPX_logo.png', 'FPX'),
+  
+  #Vega Squadron
+  ('Vega Squadron', 'pictures/Team_Logos/VEG_logo.png', 'VEG'),
+  
+  #Damwon Gaming
+  ('Damwon Gaming', 'pictures/Team_Logos/DWG_logo.png', 'DWG'),
+  
+	#Gambit Esports
+  ('Gambit Esports', 'pictures/Team_Logos/Gambit_logo.png', 'GMB');
   
 #Active Roster
 
