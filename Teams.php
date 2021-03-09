@@ -32,19 +32,19 @@
     <div class="sideways">
         <div class="gallery js-flickity">
             <div class="gallery-cell">
-                <img src="pictures/teams/DWG_logo.png" alt="DWG">
+                <img src="pictures/Team_Logos/DWG_logo.png" alt="DWG">
                 <hr>
             </div>
-            <div class="gallery-cell"><img src="pictures/teams/Fnatic_logo.png" alt="Fnatic">
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Fnatic_logo.png" alt="Fnatic">
                 <hr>
             </div>
-            <div class="gallery-cell"><img src="pictures/teams/FPX_logo.png" alt="FPX">
+            <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX">
                 <hr>
             </div>
-            <div class="gallery-cell"><img src="pictures/teams/G2_logo.png" alt="G2">
+            <div class="gallery-cell"><img src="pictures/t´Team_Logos/G2_logo.png" alt="G2">
                 <hr>
             </div>
-            <div class="gallery-cell"><img src="pictures/teams/Gambit_logo.png" alt="Gambit">
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit">
                 <hr>
             </div>
             <?php include 'src/teams_select.php' ?>
