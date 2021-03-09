@@ -109,7 +109,7 @@ INSERT INTO t_team (te_name, te_kuerzel) VALUES
 ('Rogue', 'RGE'), 
 ('Schalke 04', 'S04'),
 ('SK Gaming', 'SK'), 
-('Unicorns of Love', 'UOL'),
+('Unicorns of Love.cis', 'UOL'),
 ('Funplus Phoenix', 'FPX'), 
 ('Vega Squadron', 'VEG'),
 ('Damwon Gaming', 'DWG'), 
@@ -160,7 +160,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Massol', 'Jean', 'SK Jezu', 5, 4),
 ('Wessén', 'Erik', 'SK Treatz', 5, 5),
 
-#Unicorns Of Love - Region CIS
+#Unicorns Of Love.cis - Region CIS
 
 ('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
 ('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
