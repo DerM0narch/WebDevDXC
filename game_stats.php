@@ -26,6 +26,7 @@
                     <form action="#">
                         <label>Spielauswahl:
                             <select name="nextGame">
+                                <option value=0> Bitte Wählen </option>
                                 <?php include 'src/game_select.php' ?>
                             </select>
                         </label>
