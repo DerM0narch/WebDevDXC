@@ -41,7 +41,7 @@
             <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX">
                 <hr>
             </div>
-            <div class="gallery-cell"><img src="pictures/t´Team_Logos/G2_logo.png" alt="G2">
+            <div class="gallery-cell"><img src="pictures/Team_Logos/G2_logo.png" alt="G2">
                 <hr>
             </div>
             <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit">
