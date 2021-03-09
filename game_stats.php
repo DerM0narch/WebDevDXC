@@ -25,7 +25,7 @@
                 <th>
                     <form action="#">
                         <label>Spielauswahl:
-                            <select name="nextGame">
+                            <select name="nextGame" id=nG>
                                 <option value=0> Bitte Wählen </option>
                                 <?php include 'src/game_select.php' ?>
                             </select>
@@ -38,7 +38,7 @@
         <table class="stat">
             <tr>
                 <th>
-
+                    
                 </th>
                 <th>
                     Blue Side
