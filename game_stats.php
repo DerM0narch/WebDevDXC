@@ -24,10 +24,7 @@
                     <form action="#">
                         <label>Spielauswahl:
                             <select name="nextGame">
-                                <option>Spiel 1</option>
-                                <option>Spiel 2</option>
-                                <option>Spiel 3</option>
-                                <option>Spiel 4</option>
+                                <?php include 'src/teams_select.php' ?>
                             </select>
                         </label>
                     </form>
