@@ -109,7 +109,7 @@ INSERT INTO t_team (te_name, te_kuerzel) VALUES
 ('Rogue', 'RGE'), 
 ('Schalke 04', 'S04'),
 ('SK Gaming', 'SK'), 
-('Unicorns of Love', 'UOL'),
+('Unicorns of Love.cis', 'UOL'),
 ('Funplus Phoenix', 'FPX'), 
 ('Vega Squadron', 'VEG'),
 ('Damwon Gaming', 'DWG'), 
@@ -160,7 +160,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 ('Massol', 'Jean', 'SK Jezu', 5, 4),
 ('Wessén', 'Erik', 'SK Treatz', 5, 5),
 
-#Unicorns Of Love - Region CIS
+#Unicorns Of Love.cis - Region CIS
 
 ('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
 ('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
@@ -178,10 +178,10 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 
 #Vega Squadron - Region CIS 
 
-('Zuravlev', 'Oleg', 'VEG Charger ', 8, 1),
+('Zuravlev', 'Oleg', 'VEG Charger', 8, 1),
 ('Zenyan','Artem', 'VEG Rein ', 8, 2),
 ('Moskalenko', 'Zhenya', 'VEG PekiDo', 8, 3),
-('Averin', 'Vadim', 'VEG CyraXx', 8, 4),
+('Averin', 'Vadim', 'VEG cyraXx', 8, 4),
 ('Musaev', 'Ali', 'VEG Mercenary', 8, 5),
 
 #Damwon Gaming - Region Korea
@@ -195,7 +195,7 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
 #Gambit Esports - Region CIS
 
 ('Leksin', 'Mark', 'GMB DREAMPYLLA', 10, 1),
-('Glazkov','Alexander', 'GMB PvPStejos', 10, 2),
+('Penchev','Stanimir', 'GMB Four', 10, 2),
 ('Lemeshchuk', 'Alexey', 'GMB Phlaty', 10, 3),
 ('Pervushin', 'Artyom', 'GMB Shiganari', 10, 4),
 ('Lexikov', 'Alexander', 'GMB Lekcycc', 10, 5);
