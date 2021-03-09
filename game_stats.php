@@ -63,9 +63,9 @@
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(1,2);">
+                    <input type="button" value="-" name="trkiminus" id="trkiminus" onclick="countdown(1,2);">
                     <input type="text" name="tbki" id="E1S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(1,2);">
+                    <input type="button" value="+" name="trkiplus" id="trkiplus" onclick="countup(1,2);">
                 </td>
                 <td>
                     <!-- Icon Red Kills-->
@@ -82,15 +82,15 @@
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,1);">
+                    <input type="button" value="-" name="tbtuminus" id="tbtuminus" onclick="countdown(2,1);">
                     <input type="text" name="tbki" id="E2S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(2,1);">
+                    <input type="button" value="+" name="tbtuplus" id="tbtuplus" onclick="countup(2,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(2,2);">
+                    <input type="button" value="-" name="trtuminus" id="trtuminus" onclick="countdown(2,2);">
                     <input type="text" name="tbki" id="E2S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(2,2);">
+                    <input type="button" value="+" name="trtuplus" id="trtuplus" onclick="countup(2,2);">
                 </td>
                 <td>
                     <!-- Icon Red Turrets-->
@@ -106,15 +106,15 @@
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,1);">
+                    <input type="button" value="-" name="tbdrminus" id="tbdrminus" onclick="countdown(3,1);">
                     <input type="text" name="tbki" id="E3S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(3,1);">
+                    <input type="button" value="+" name="tbdrplus" id="tbdrplus" onclick="countup(3,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(3,2);">
+                    <input type="button" value="-" name="trdrminus" id="trdrminus" onclick="countdown(3,2);">
                     <input type="text" name="tbki" id="E3S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(3,2);">
+                    <input type="button" value="+" name="trdrplus" id="trdrplus" onclick="countup(3,2);">
                 </td>
                 <td>
                     <!-- Icon Red Drakes-->
@@ -129,15 +129,15 @@
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,1);">
+                    <input type="button" value="-" name="tbnaminus" id="tbnaminus" onclick="countdown(4,1);">
                     <input type="text" name="tbki" id="E4S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(4,1);">
+                    <input type="button" value="+" name="tbnaplus" id="tbnaplus" onclick="countup(4,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(4,2);">
+                    <input type="button" value="-" name="trnaminus" id="trnaminus" onclick="countdown(4,2);">
                     <input type="text" name="tbki" id="E4S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(4,2);">
+                    <input type="button" value="+" name="trnaplus" id="trnaplus" onclick="countup(4,2);">
                 </td>
                 <td>
                     <!-- Icon Red Nashes-->
@@ -152,15 +152,15 @@
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,1);">
+                    <input type="button" value="-" name="tbinminus" id="tbinminus" onclick="countdown(5,1);">
                     <input type="text" name="tbki" id="E5S1" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(5,1);">
+                    <input type="button" value="+" name="tbinplus" id="tbinplus" onclick="countup(5,1);">
                 </td>
                 <td>
                     <!-- Schaltfläschen fürs hoch/runter zählen + aktueller Stand-->
-                    <input type="button" value="-" name="tbkiminus" id="tbkiminus" onclick="countdown(5,2);">
+                    <input type="button" value="-" name="trinminus" id="trinminus" onclick="countdown(5,2);">
                     <input type="text" name="tbki" id="E5S2" value=0 readonly>
-                    <input type="button" value="+" name="tbkiplus" id="tbkiplus" onclick="countup(5,2);">
+                    <input type="button" value="+" name="trinplus" id="trinplus" onclick="countup(5,2);">
                 </td>
                 <td>
                     <!-- Icon Red Inhibs-->
