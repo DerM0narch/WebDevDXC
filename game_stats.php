@@ -38,7 +38,7 @@
         <table class="stat">
             <tr>
                 <th>
-                    
+                    <?php include 'src/kuerzelblue.php' ?>
                 </th>
                 <th>
                     Blue Side
