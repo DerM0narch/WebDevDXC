@@ -18,18 +18,25 @@
         in den Zeilen die Ereignissymbole plus Schaltflächen zum hoch und runter zählen für beide Teams
         button zur auswahl des Siegers je nach team färbt er sich
         Submit button-->
+        <?php $sql="SELECT sp_id from t_spieltag order by sp_id" ?>
+
         <table class="drop">
             <tr>
                 <th>
                     <form action="#">
-                        <label>Spielauswahl:
-                            <select name="nextGame">
-                                <option>Spiel 1</option>
-                                <option>Spiel 2</option>
-                                <option>Spiel 3</option>
-                                <option>Spiel 4</option>
-                            </select>
-                        </label>
+                        <select name="Game">
+                            <option value=0>Bitte wählen</option>
+                            <?php
+                                $res=mysqli_query($conn,$sql);
+                                if ($res)
+                                {
+                                    while ($zeile=mysqli_fetch_array($res))
+                                    {
+                                        echo "<option value=".$zeile['sp_id'].">".$zeile['sp_id']."</option>";
+                                    }
+                                }
+                            ?>
+                        </select>
                     </form>
                 </th>
             </tr>
