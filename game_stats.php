@@ -14,7 +14,7 @@
 
 <body>
     <div class="sideways">
-        <!-- Dropdownliste zur Auswahl der Spiele 
+        <!-- Dropdownliste zur Auswahl der Spiele
         in den Zeilen die Ereignissymbole plus Schaltflächen zum hoch und runter zählen für beide Teams
         button zur auswahl des Siegers je nach team färbt er sich
         Submit button-->
@@ -24,27 +24,11 @@
             <tr>
                 <th>
                     <form action="#">
-<<<<<<< HEAD
-                        <select name="Game">
-                            <option value=0>Bitte wählen</option>
-                            <?php
-                                $res=mysqli_query($conn,$sql);
-                                if ($res)
-                                {
-                                    while ($zeile=mysqli_fetch_array($res))
-                                    {
-                                        echo "<option value=".$zeile['sp_id'].">".$zeile['sp_id']."</option>";
-                                    }
-                                }
-                            ?>
-                        </select>
-=======
                         <label>Spielauswahl:
                             <select name="nextGame">
                                 <?php include 'src/game_select.php' ?>
                             </select>
                         </label>
->>>>>>> a6ab6001c1422bc94976c445b750c182fdbb57ad
                     </form>
                 </th>
             </tr>
