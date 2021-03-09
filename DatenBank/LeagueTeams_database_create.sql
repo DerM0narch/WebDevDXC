@@ -118,87 +118,87 @@ INSERT INTO t_team (te_name, te_kuerzel) VALUES
 
 #Active Roster  
 
-INSERT INTO t_player (p_name, p_vname, p_ingamename, p_team, p_r_rolle) VALUES
+INSERT INTO t_player (p_name, p_vname, p_ingamename, p_herkunft, p_team, p_r_rolle) VALUES
 
 #G2 Esports - Region EU
 
-('Hansen', 'Martin', 'G2 Wunder', 1, 1),
-('Jankowski', 'Marcin', 'G2 Jankos', 1, 2),
-('Winther','Rasmus', 'G2 Caps', 1, 3),
-('Larsson', 'Martin', 'G2 Rekkles', 1, 4),
-('Mehle', 'Mihael', 'G2 Mikyx', 1, 5),
+('Hansen', 'Martin', 'G2 Wunder', 'Dänemark', 1, 1),
+('Jankowski', 'Marcin', 'G2 Jankos','Polen', 1, 2),
+('Winther','Rasmus', 'G2 Caps', 'Dänemark', 1, 3),
+('Larsson', 'Martin', 'G2 Rekkles', 'Schweden', 1, 4),
+('Mehle', 'Mihael', 'G2 Mikyx', 'Slowenien', 1, 5),
 
 #Fnatic - Region EU
 
-('Rau', 'Gabriël', 'FNC Bwipo ', 2, 1),
-('Boderek', 'Oskar', 'FNC Selfmade', 2, 2),
-('Dinçer', 'Yasin', 'FNC Nisqy', 2, 3),
-('Lipp', 'Elias', 'FNC Upset', 3, 4),
-('Iliev Galabov', 'Zdravets', 'FNC Hylissang', 3, 5),
+('Rau', 'Gabriël', 'FNC Bwipo ', 'Belgien', 2, 1),
+('Boderek', 'Oskar', 'FNC Selfmade', 'Polen', 2, 2),
+('Dinçer', 'Yasin', 'FNC Nisqy', 'Belgien',  2, 3),
+('Lipp', 'Elias', 'FNC Upset', 'Deutschland', 3, 4),
+('Iliev Galabov', 'Zdravets', 'FNC Hylissang','Bulgarien', 3, 5),
 
 #Rogue - Region EU 
 
-('Pascu', 'Andrei', 'RGE Odoamne', 3, 1),
-('Słoma','Kacper', 'RGE Inspired', 3, 2),
-('Larsson', 'Emil', 'RGE Larssen ', 3, 3),
-('Liv', 'Steven', 'RGE Hans Sama', 3, 4),
-('Trybus', 'Adrian', 'RGE Trymbi', 3, 5),
+('Pascu', 'Andrei', 'RGE Odoamne', 'Belgien', 3, 1),
+('Słoma','Kacper', 'RGE Inspired', 'Polen', 3, 2),
+('Larsson', 'Emil', 'RGE Larssen ', 'Schweden', 3, 3),
+('Liv', 'Steven', 'RGE Hans Sama', 'Frankreich', 3, 4),
+('Trybus', 'Adrian', 'RGE Trymbi', 'Polen', 3, 5),
 
 #Schalke 04 - Region EU
 
-('Çelik', 'Sergen', 'S04 Broken Blade', 4, 1),
-('Demir','Erberk', 'S04 Gilius', 4, 2),
-('Braun', 'Felix', 'S04 Abbedagge', 4, 3),
-('Jakubčík', 'Matúš', 'S04 Neon', 4, 4),
-('Tot', 'Dino', 'S04 LIMIT', 4, 5),
+('Çelik', 'Sergen', 'S04 Broken Blade', 'Deutschland',  4, 1),
+('Demir','Erberk', 'S04 Gilius', 'Deutschland', 4, 2),
+('Braun', 'Felix', 'S04 Abbedagge', 'Deutschland', 4, 3),
+('Jakubčík', 'Matúš', 'S04 Neon', 'Slowakei', 4, 4),
+('Tot', 'Dino', 'S04 LIMIT', 'Koreatien', 4, 5),
 
 #SK Gaming - Region EU
 
-('Bartels', 'Janik', 'SK Jenax', 5, 1),
-('Østergaard Hansen','Kristian', 'SK TynX', 5, 2),
-('Gören', 'Ersin', 'SK Blue', 5, 3),
-('Massol', 'Jean', 'SK Jezu', 5, 4),
-('Wessén', 'Erik', 'SK Treatz', 5, 5),
+('Bartels', 'Janik', 'SK Jenax', 'Deutschland', 5, 1),
+('Østergaard Hansen','Kristian', 'SK TynX', 'Dänemark', 5, 2),
+('Gören', 'Ersin', 'SK Blue', 'Belgien', 5, 3),
+('Massol', 'Jean', 'SK Jezu', 'Frankreich', 5, 4),
+('Wessén', 'Erik', 'SK Treatz', 'Schweden', 5, 5),
 
 #Unicorns Of Love.cis - Region CIS
 
-('Fomin', 'Vladislav', 'UOL BOSS', 6, 1),
-('Skvortsov','Kirill', 'UOL AHaHaCiK ', 6, 2),
-('Yakshin', 'Lev', 'UOL Nomanz', 6, 3),
-('Botezatu', 'Antonio', 'UOL Frappii', 6, 4),
-('Lifashin', 'Aleksandr', 'UOL SaNTaS', 6, 5),
+('Fomin', 'Vladislav', 'UOL BOSS', 'Russland', 6, 1),
+('Skvortsov','Kirill', 'UOL AHaHaCiK ', 'Russland', 6, 2),
+('Yakshin', 'Lev', 'UOL Nomanz', 'Russland', 6, 3),
+('Botezatu', 'Antonio', 'UOL Frappii', 'Frankreich', 6, 4),
+('Lifashin', 'Aleksandr', 'UOL SaNTaS', 'Russland', 6, 5),
 
 #Funplus Phoenix - Region China
 
-('Jang', 'Ha-gwon', 'FPX Nuguri', 7, 1),
-('Yang','Ling', 'FPX Beichuan', 7, 2),
-('Kim', 'Tae-sang', 'FPX Doinb', 7, 3),
-('Lin', 'Wei-Xiang', 'FPX Lwx', 7, 4),
-('Liu', 'Quing-Song', 'FPX Crisp', 7, 5),
+('Jang', 'Ha-gwon', 'FPX Nuguri', 'Süd Korea', 7, 1),
+('Yang','Ling', 'FPX Beichuan', 'China', 7, 2),
+('Kim', 'Tae-sang', 'FPX Doinb', 'Süd Korea', 7, 3),
+('Lin', 'Wei-Xiang', 'FPX Lwx', 'China', 7, 4),
+('Liu', 'Quing-Song', 'FPX Crisp', 'China', 7, 5),
 
 #Vega Squadron - Region CIS 
 
-('Zuravlev', 'Oleg', 'VEG Charger', 8, 1),
-('Zenyan','Artem', 'VEG Rein ', 8, 2),
-('Moskalenko', 'Zhenya', 'VEG PekiDo', 8, 3),
-('Averin', 'Vadim', 'VEG cyraXx', 8, 4),
-('Musaev', 'Ali', 'VEG Mercenary', 8, 5),
+('Zuravlev', 'Oleg', 'VEG Charger', 'Russland', 8, 1),
+('Zenyan','Artem', 'VEG Rein ', 'Russland', 8, 2),
+('Moskalenko', 'Zhenya', 'VEG PekiDo', 'Ukraine', 8, 3),
+('Averin', 'Vadim', 'VEG cyraXx', 'Lettland', 8, 4),
+('Musaev', 'Ali', 'VEG Mercenary', 'Russland', 8, 5),
 
 #Damwon Gaming - Region Korea
 
-('Kim', 'Dong-ha', 'DWG Khan', 9, 1),
-('Kim','Geon-bu', 'DWG Canyon', 9, 2),
-('Heo', 'Su', 'DWG ShowMaker', 9, 3),
-('Jang', 'Yong-jun', 'DWG Ghost', 9, 4),
-('Cho', 'Geon-hee', 'DWG BeryL', 9, 5),
+('Kim', 'Dong-ha', 'DWG Khan', 'Süd Korea', 9, 1),
+('Kim','Geon-bu', 'DWG Canyon', 'Süd Korea', 9, 2),
+('Heo', 'Su', 'DWG ShowMaker', 'Süd Korea', 9, 3),
+('Jang', 'Yong-jun', 'DWG Ghost', 'Süd Korea', 9, 4),
+('Cho', 'Geon-hee', 'DWG BeryL', 'Süd Korea', 9, 5),
 
 #Gambit Esports - Region CIS
 
-('Leksin', 'Mark', 'GMB DREAMPYLLA', 10, 1),
-('Penchev','Stanimir', 'GMB Four', 10, 2),
-('Lemeshchuk', 'Alexey', 'GMB Phlaty', 10, 3),
-('Pervushin', 'Artyom', 'GMB Shiganari', 10, 4),
-('Lexikov', 'Alexander', 'GMB Lekcycc', 10, 5);
+('Leksin', 'Mark', 'GMB DREAMPYLLA', 'Russland', 10, 1),
+('Penchev','Stanimir', 'GMB Four', 'Bulgarien', 10, 2),
+('Lemeshchuk', 'Alexey', 'GMB Phlaty', 'Russland', 10, 3),
+('Pervushin', 'Artyom', 'GMB Shiganari', 'Lettland', 10, 4),
+('Lexikov', 'Alexander', 'GMB Lekcycc', 'Russland', 10, 5);
 
 #Spiele
 
