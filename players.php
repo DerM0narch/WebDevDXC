@@ -59,91 +59,91 @@
             <tr>
             <!-- Rolle per Selectbefehl anhand der rollenID-->
                 <th>
-                <?php include 'src\player_rolle\player_rolle_top.php' ?>
+                    <?php include 'src\player_rolle\player_rolle_top.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_rolle\player_rolle_jng.php' ?>
+                    <?php include 'src\player_rolle\player_rolle_jng.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_rolle\player_rolle_mid.php' ?>
+                    <?php include 'src\player_rolle\player_rolle_mid.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_rolle\player_rolle_bot.php' ?>
+                    <?php include 'src\player_rolle\player_rolle_bot.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_rolle\player_rolle_sup.php' ?>
+                    <?php include 'src\player_rolle\player_rolle_sup.php' ?>
                 </th>
             </tr>
             <tr>
             <!-- Nachnamen per Selectbefehl anhand der rollenID-->
                 <th>
-                <?php include 'src\player_nname\player_nname_top.php' ?>
+                    <?php include 'src\player_nname\player_nname_top.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_nname\player_nname_jng.php' ?>
+                    <?php include 'src\player_nname\player_nname_jng.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_nname\player_nname_mid.php' ?>
+                    <?php include 'src\player_nname\player_nname_mid.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_nname\player_nname_bot.php' ?>
+                    <?php include 'src\player_nname\player_nname_bot.php' ?>
                 </th>
                 <th>
-                <?php include 'src\player_nname\player_nname_sup.php' ?>
+                    <?php include 'src\player_nname\player_nname_sup.php' ?>
                 </th>
             </tr>
             <tr>
             <!-- Vornamen per Selectbefehl anhand der rollenID-->
                 <th>
-                <?php include '' ?>
+                    <?php include 'src\player_vname\player_vname_top.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                    <?php include 'src\player_vname\player_vname_jng.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                    <?php include 'src\player_vname\player_vname_mid.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                    <?php include 'src\player_vname\player_vname_bot.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                    <?php include 'src\player_vname\player_vname_sup.php' ?>
                 </th>
             </tr>
             <tr>
             <!-- Team per Selectbefehl anhand der rollenID-->
                 <th>
-                    Team Toplane
+                    <?php include 'src\player_team\player_team_all.php' ?>
                 </th>
                 <th>
-                    Team Jungle
+                    <?php include 'src\player_team\player_team_all.php' ?>
                 </th>
                 <th>
-                    Team Midlane
+                    <?php include 'src\player_team\player_team_all.php' ?>
                 </th>
                 <th>
-                    Team Botlane
+                    <?php include 'src\player_team\player_team_all.php' ?>
                 </th>
                 <th>
-                    Team Support
+                    <?php include 'src\player_team\player_team_all.php' ?>
                 </th>
             </tr>
             <tr>
             <!-- Herkunkt per Selectbefehl anhand der rollenID-->
                 <th>
-                    Herkunkt Toplane
+                    <?php include 'src\player_herkunft\player_herkunft_top.php' ?>
                 </th>
                 <th>
-                    Herkunkt Jungle
+                    <?php include 'src\player_herkunft\player_herkunft_jng.php' ?>
                 </th>
                 <th>
-                    Herkunkt Midlane
+                    <?php include 'src\player_herkunft\player_herkunft_mid.php' ?>
                 </th>
                 <th>
-                    Herkunkt Botlane
+                    <?php include 'src\player_herkunft\player_herkunft_bot.php' ?>
                 </th>
                 <th>
-                    Herkunkt Support
+                    <?php include 'src\player_herkunft\player_herkunft_sup.php' ?>
                 </th>
             </tr>
             <tr>
