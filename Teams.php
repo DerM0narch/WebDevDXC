@@ -99,16 +99,4 @@
   opacity: 1;
 }
 </style>
-</head>
-<body>
-
-<h2>Image Overlay Title</h2>
-<p>Hover over the image to see the effect.</p>
-
-<div class="container">
-  <img src="pictures\Teams_und_Spieler\G2\G2_Caps_Mid.png" alt="Avatar" class="image">
-  <div class="overlay">G2 Caps</div>
-</div>
-
-</body>
 </html>
