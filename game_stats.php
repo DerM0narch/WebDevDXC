@@ -23,9 +23,10 @@
         <table class="drop">
             <tr>
                 <th>
-                    <form action="#">
+                    <form name="spielauswahl" id="spielauswahl" action="#" method="POST">
+                    <input type="hidden" name="hd_spiel_id" id="hd_spiel_id" value=0> 
                         <label>Spielauswahl:
-                            <select name="nextGame" id=nG>
+                            <select name="nextGame" id=nextGame onchange="selectchange();">
                                 <option value=0> Bitte Wählen </option>
                                 <?php include 'src/game_select.php' ?>
                             </select>
@@ -35,19 +36,28 @@
             </tr>
         </table>
         <br>
+
+        <?php if (!isset($_GET['type']) || $_GET['type']!=2)
+        echo "Noch kein Spiel ausgewählt!";
+        else{?>
+        
+        
+
+
+        
         <table class="stat">
             <tr>
                 <th>
                     <?php include 'src/kuerzelblue.php' ?>
                 </th>
                 <th>
-                    Blue Side
+                    <?php include 'src/teamblue.php' ?>
                 </th>
                 <th>
-                    Red Side
+                    <?php include 'src/teamred.php' ?>
                 </th>
                 <th>
-
+                <?php include 'src/kuerzelred.php' ?>
                 </th>
             </tr>
             <!--kills-->
@@ -171,15 +181,10 @@
                 </td>
             </tr>
         </table>
+    
 
-
-
-
-
-
-
-
-
+    <?php } ?>
+    
     </div>
     <script src="js/main.js"></script>
 </body>

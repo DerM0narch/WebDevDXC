@@ -17,3 +17,9 @@ function countdown(ereignis, side) {
     document.getElementById(feld).value = alterWert - 1;
   }
 }
+
+function selectchange() {
+  document.getElementById('hd_spiel_id').value = document.getElementById('nextGame').value;
+  document.spielauswahl.action="game_stats.php?type=2";
+  document.spielauswahl.submit();
+}
