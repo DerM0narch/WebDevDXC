@@ -50,19 +50,19 @@ CREATE TABLE if NOT EXISTS t_gesamt_stats
 
 Create table if not exists t_spieltag 
 (
-  sp_id int auto_increment not null,
+  sp_id INT AUTO_INCREMENT NOT null ,    
   sp_tag int not null,
   sp_blue_side int,
   sp_red_side int,
   sp_blue_win boolean,
-  primary key (sp_id),
+  primary KEY(sp_id),
   foreign key (sp_blue_side) references t_team(te_id),
   foreign key (sp_red_side) references t_team(te_id)
 );
 
 Create table if not exists t_spiel_stats 
 (
-  ss_sp_id int auto_increment not null,
+  ss_sp_id int,
   ss_blue_kills int,
   ss_blue_drakes int,
   ss_blue_nashes int,
@@ -73,8 +73,7 @@ Create table if not exists t_spiel_stats
   ss_red_nashes int,
   ss_red_turrets int,
   ss_red_inhibs int,
-  primary key (ss_sp_id),
-  foreign key (ss_sp_id) references t_team(te_id)
+  foreign key (ss_sp_id) references t_spieltag(sp_id)
 );
 
 CREATE TABLE if NOT EXISTS t_user 
@@ -152,8 +151,8 @@ INSERT INTO t_player (p_name, p_vname, p_ingamename, p_herkunft, p_team, p_r_rol
 ('Rau', 'Gabriël', 'FNC Bwipo ', 'Belgien', 2, 1),
 ('Boderek', 'Oskar', 'FNC Selfmade', 'Polen', 2, 2),
 ('Dinçer', 'Yasin', 'FNC Nisqy', 'Belgien',  2, 3),
-('Lipp', 'Elias', 'FNC Upset', 'Deutschland', 3, 4),
-('Iliev Galabov', 'Zdravets', 'FNC Hylissang','Bulgarien', 3, 5),
+('Lipp', 'Elias', 'FNC Upset', 'Deutschland', 2, 4),
+('Iliev Galabov', 'Zdravets', 'FNC Hylissang','Bulgarien', 2, 5),
 
 #Rogue - Region EU 
 
