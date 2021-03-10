@@ -44,70 +44,70 @@
                     <?php include 'src/player_top_igname.php' ?>
                 </th>
                 <th>
-                    Ingamename Jungle
+                    <?php include 'src\player_jng_igname.php' ?>
                 </th>
                 <th>
-                    Ingamename Midlane
+                    <?php include 'src\player_mid_igname.php' ?>
                 </th>
                 <th>
-                    Ingamename Botlane
+                    <?php include 'src\player_bot_igname.php' ?>
                 </th>
                 <th>
-                    Ingamename Support
+                    <?php include 'src\player_sup_igname.php' ?> 
                 </th>
             </tr>
             <tr>
             <!-- Rolle per Selectbefehl anhand der rollenID-->
                 <th>
-                    Rolle Toplane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Rolle Jungle
+                <?php include '' ?>
                 </th>
                 <th>
-                    Rolle Midlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Rolle Botlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Rolle Support
+                <?php include '' ?>
                 </th>
             </tr>
             <tr>
             <!-- Nachnamen per Selectbefehl anhand der rollenID-->
                 <th>
-                    Nachnamen Toplane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Nachnamen Jungle
+                <?php include '' ?>
                 </th>
                 <th>
-                    Nachnamen Midlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Nachnamen Botlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Nachnamen Support
+                <?php include '' ?>
                 </th>
             </tr>
             <tr>
             <!-- Vornamen per Selectbefehl anhand der rollenID-->
                 <th>
-                    Vornamen Toplane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Vornamen Jungle
+                <?php include '' ?>
                 </th>
                 <th>
-                    Vornamen Midlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Vornamen Botlane
+                <?php include '' ?>
                 </th>
                 <th>
-                    Vornamen Support
+                <?php include '' ?>
                 </th>
             </tr>
             <tr>
