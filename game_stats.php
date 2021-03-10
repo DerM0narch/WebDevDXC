@@ -27,7 +27,7 @@
                     <input type="hidden" name="hd_spiel_id" id="hd_spiel_id" value=0> 
                         <label>Spielauswahl:
                             <select name="nextGame" id=nextGame onchange="selectchange();">
-                                <option value=0 disabled > Bitte Wählen </option>
+                                <option value=0> Bitte Wählen </option>
                                 <?php include 'src/game_select.php' ?>
                             </select>
                         </label>
