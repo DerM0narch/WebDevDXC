@@ -6,3 +6,4 @@ if ($res) {
         echo '<div class="gallery-cell"><img src="' . $zeile['te_pic_path'] . '" alt=' . $zeile['te_name'] . "><hr></div>";
     }
 }
+?>

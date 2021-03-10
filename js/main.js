@@ -23,3 +23,9 @@ function selectchange() {
   document.spielauswahl.action="game_stats.php?type=2";
   document.spielauswahl.submit();
 }
+
+function selectchangeteam() {
+  document.getElementById('hd_player_team_id').value = document.getElementById('whichTeam').value;
+  document.welchesTeam.action="players.php?type=2";
+  document.welchesTeam.submit();
+}

@@ -8,6 +8,8 @@
     <title>Spieler</title>
     <link rel="stylesheet" href="css/style.css">
     <?php include 'src/navigation.php' ?>
+    <?php include 'src/db_conn.php' ?>
+    <script src='js/main.js'> </script>
 </head>
 
 <body>
@@ -16,20 +18,13 @@
         <table class="drop">
             <tr>
                 <th>
-                    <form action="#">
+                    <form name="welchesTeam" id="welchesTeam" action="#" method=POST>
+                    <input type="hidden" name="hd_player_team_id" id="hd_player_team_id" value=0>
                         <label>Welches Team?:
-                            <select name="whichTeam">
+                            <select name="whichTeam" id="whichTeam" onchange="selectchangeteam();">
                             <!-- Selectbefehl der Teams nach ID dem passenden value hinzufügt-->
-                                <option value="1">G2 Esports</option>
-                                <option value="2">Fnatic</option>
-                                <option value="3">Rogue</option>
-                                <option value="4">Schalke 04</option>
-                                <option value="5">SK Gaming</option>
-                                <option value="6">Unicorns of Love</option>
-                                <option value="7">Funplus Phoenix</option>
-                                <option value="8">Vega Squadron</option>
-                                <option value="9">Damwon Gaming</option>
-                                <option value="10">Gambit Esports</option>
+                               <option value=0 disabled selected> Bitte Team wählen </option>
+                               <?php include 'src/player_team_select.php' ?>
                             </select>
                         </label>
                     </form>
@@ -37,11 +32,16 @@
             </tr>
         </table>
         <br>
+
+        <?php if (!isset($_GET['type']) || $_GET['type']!=2)
+        echo "Noch kein Team ausgewählt!";
+        else{?>
+
         <table border="3">
             <tr>
             <!-- Ingamenamen per Selectbefehl anhand der rollenID und nach de ausgewählten team-->
                 <th>
-                    Ingamename Toplane
+                    <?php include 'src/player_top_igname.php' ?>
                 </th>
                 <th>
                     Ingamename Jungle
@@ -165,6 +165,8 @@
                 </th>
             </tr>
         </table>
+
+        <?php } ?>
     </div>
 </body>
 

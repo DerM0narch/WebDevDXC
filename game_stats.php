@@ -26,8 +26,8 @@
                     <form name="spielauswahl" id="spielauswahl" action="#" method="POST">
                     <input type="hidden" name="hd_spiel_id" id="hd_spiel_id" value=0> 
                         <label>Spielauswahl:
-                            <select name="nextGame" id=nextGame onchange="selectchange();">
-                                <option value=0> Bitte Wählen </option>
+                            <select name="nextGame" id=nextGame onchange="selectchangeteam();">
+                                <option value=0 disabled selected> Bitte Wählen </option>
                                 <?php include 'src/game_select.php' ?>
                             </select>
                         </label>
