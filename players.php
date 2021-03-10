@@ -41,55 +41,55 @@
             <tr>
             <!-- Ingamenamen per Selectbefehl anhand der rollenID und nach de ausgewählten team-->
                 <th>
-                    <?php include 'src/player_top_igname.php' ?>
+                    <?php include 'src/player_igname/player_top_igname.php' ?>
                 </th>
                 <th>
-                    <?php include 'src\player_jng_igname.php' ?>
+                    <?php include 'src/player_igname/player_jng_igname.php' ?>
                 </th>
                 <th>
-                    <?php include 'src\player_mid_igname.php' ?>
+                    <?php include 'src/player_igname/player_mid_igname.php' ?>
                 </th>
                 <th>
-                    <?php include 'src\player_bot_igname.php' ?>
+                    <?php include 'src/player_igname/player_bot_igname.php' ?>
                 </th>
                 <th>
-                    <?php include 'src\player_sup_igname.php' ?> 
+                    <?php include 'src/player_igname/player_sup_igname.php' ?> 
                 </th>
             </tr>
             <tr>
             <!-- Rolle per Selectbefehl anhand der rollenID-->
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_rolle\player_rolle_top.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_rolle\player_rolle_jng.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_rolle\player_rolle_mid.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_rolle\player_rolle_bot.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_rolle\player_rolle_sup.php' ?>
                 </th>
             </tr>
             <tr>
             <!-- Nachnamen per Selectbefehl anhand der rollenID-->
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_nname\player_nname_top.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_nname\player_nname_jng.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_nname\player_nname_mid.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_nname\player_nname_bot.php' ?>
                 </th>
                 <th>
-                <?php include '' ?>
+                <?php include 'src\player_nname\player_nname_sup.php' ?>
                 </th>
             </tr>
             <tr>
