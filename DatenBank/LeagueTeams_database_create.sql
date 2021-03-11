@@ -19,6 +19,7 @@ create table if not exists t_team
   te_name varchar(50),
   te_pic_path varchar(200),
   te_kuerzel varchar(3),
+  te_win INT,
   primary key (te_id)
 );
 
@@ -37,16 +38,7 @@ create table if not exists t_player
   foreign KEY (p_r_rolle) references t_rolle(r_id)
   
 );
-CREATE TABLE if NOT EXISTS t_gesamt_stats 
-(
-  s_te_id INT auto_increment not null,
-  s_win INT,
-  s_loose INT,
-  s_nashes INT,
-  s_tower INT,
-  PRIMARY KEY (s_te_id),
-  FOREIGN KEY (s_te_id) REFERENCES t_team(te_id)
-);
+DROP table if exists t_gesamt_stats;
 
 Create table if not exists t_spieltag 
 (
