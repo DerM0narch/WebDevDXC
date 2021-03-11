@@ -32,46 +32,6 @@
 <!--Style für die Bilder + Hovertext -->
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-* {box-sizing: border-box;}
-
-        .container 
-        {
-        position: relative;
-        width: 50%;
-        max-width: 300px;
-        }
-
-        .image 
-        {
-        display: block;
-        width: 100%;
-        height: auto;
-        }
-
-        .overlay 
-        {
-        position: absolute; 
-        bottom: 0; 
-        background: rgb(0, 0, 0);
-        background: rgba(0, 0, 0, 0.5); /* Black see-through */
-        color: #f1f1f1; 
-        width: 100%;
-        transition: .5s ease;
-        opacity:0;
-        color: white;
-        font-size: 20px;
-        padding: 20px;
-        text-align: center;
-        }
-
-        .container:hover .overlay 
-        {
-        opacity: 1;
-        }
-    </style>
-</head>
 
 
 <head>
@@ -80,36 +40,96 @@
     <div class="sideways">
             <div class="gallery js-flickity">
             
-            <div class="gallery-cell"><img src="pictures/Team_Logos/G2_logo.png" alt="G2">
-                 <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/G2_logo.png" alt="G2"><hr>
+                <br>     
+            <img src="pictures\Teams_und_Spieler\G2\G2_Wunder_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\G2\G2_Jankos_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\G2\G2_Caps_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\G2\G2_Rekkles_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\G2\G2_Mikyx_Sup.png" alt="Avatar" class="image">
+            </div>
 
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Fnatic_logo.png" alt="Fnatic"><hr>
+                 <br>     
+            <img src="pictures\Teams_und_Spieler\Fnatic\FNC_Bwipo_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Fnatic\FNC_Selfmade_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Fnatic\FNC_Nisqy_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Fnatic\FNC_Upset_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Fnatic\FNC_Hylissang_Sup.png" alt="Avatar" class="image">
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Fnatic_logo.png" alt="Fnatic">
-                 <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Rogue_logo.png" alt="RGE"><hr>
+                 <br>    
+            <img src="pictures\Teams_und_Spieler\Rogue\RGE_Odoamne_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Rogue\RGE_Inspired_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Rogue\RGE_Larssen_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Rogue\RGE_Hans_sama_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Rogue\RGE_Trymbi_Sup.png" alt="Avatar" class="image">
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Rogue_logo.png" alt="RGE">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Schalke04_logo.png" alt="S04"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\Schalke04\S04_Broken_Blade_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Schalke04\S04_Gilius_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Schalke04\S04_Abbedagge_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Schalke04\S04_Neon_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Schalke04\S04_LIMIT_Sup.png" alt="Avatar" class="image">    
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Schalke04_logo.png" alt="S04">
-                <hr></div>
-
-            <div class="gallery-cell"><img src="pictures/Team_Logos/SKGaming_logo.png" alt="SK">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/SKGaming_logo.png" alt="SK"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\SK\SK_Jenax_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\SK\SK_TynX_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\SK\SK_Blue_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\SK\SK_Jezu_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\SK\SK_Treatz_Support.png" alt="Avatar" class="image">   
+            </div>
             
-            <div class="gallery-cell"><img src="pictures/Team_Logos/UOF_logo.png" alt="UOL">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/UOF_logo.png" alt="UOL"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\UOF.cis\UOL_BOSS_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\UOF.cis\UOL_AHaHaCiK_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\UOF.cis\UOL_Nomanz_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\UOF.cis\UOL_Frappii_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\UOF.cis\UOL_SaNTaS_Sup.png" alt="Avatar" class="image">     
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\FPX\FPX_Nuguri_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\FPX\FPX_Beichuan_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\FPX\FPX_Doinb_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\FPX\FPX_Lwx_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\FPX\FPX_Crisp_Sup.png" alt="Avatar" class="image">   
+            
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/VEG_logo.png" alt="VEG">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/VEG_logo.png" alt="VEG"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\VEG\VEG_Charger_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\VEG\VEG_Rein_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\VEG\VEG_PekiDo_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\VEG\VEG_cyraXx_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\VEG\VEG_Mercenary_Sup.png" alt="Avatar" class="image">   
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/DWG_logo.png" alt="DWG">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/DWG_logo.png" alt="DWG"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\DWG\DK_Khan_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\\DWG\DK_Canyon_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\DWG\DK_ShowMaker_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\DWG\DK_Ghost_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\DWG\DK_BeryL_Sup.png" alt="Avatar" class="image">   
+            </div>
 
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit">
-                <hr></div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit"><hr>
+                <br>
+            <img src="pictures\Teams_und_Spieler\Gambit\GMB_Dreampull_Top.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Gambit\GMB_Four_Jungle.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Gambit\GMB_Phlaty_Mid.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Gambit\GMB_Shiganari_Bot.png" alt="Avatar" class="image">
+            <img src="pictures\Teams_und_Spieler\Gambit\GMB_Lekcycc_Sup.png" alt="Avatar" class="image">   
+            </div>
     </div>
     <script src="js/flickity.pkgd.min.js"></script>
 
