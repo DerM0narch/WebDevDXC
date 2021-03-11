@@ -46,7 +46,7 @@ Create table if not exists t_spieltag
   sp_tag int not null,
   sp_blue_side int,
   sp_red_side int,
-  sp_blue_win boolean,
+  sp_win int,
   primary KEY(sp_id),
   foreign key (sp_blue_side) references t_team(te_id),
   foreign key (sp_red_side) references t_team(te_id)
