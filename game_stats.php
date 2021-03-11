@@ -30,15 +30,22 @@
             $rednashes = $_POST['trna'];
             $redturret = $_POST['trtu'];
             $redinhib = $_POST['trin'];
+            $winner = $_POST['winner'];
 
             $sql = "INSERT INTO t_spiel_stats (ss_sp_id, ss_blue_kills, ss_blue_drakes, ss_blue_nashes, ss_blue_turrets, ss_blue_inhibs,
                             ss_red_kills, ss_red_drakes, ss_red_nashes, ss_red_turrets, ss_red_inhibs ) VALUES ('$sp_id', '$bluekills', '$bluedrakes', '$bluenashes',
                             '$blueturret', '$blueinhib', '$redkills', '$reddrakes', '$rednashes', '$redturret', '$redinhib')";
 
             //echo $sql;
+            if ($winner == 0) {
+                $sql2 = "UPDATE t_gesamt_stats SET s_win = s_win + 1 WHERE s_te_id = '???'";
+            } elseif ($winner == 1) {
+                $sql2 = "UPDATE t_gesamt_stats SET s_win= s_win + 1 WHERE s_te_id = '???'";
+            } else {
+            }
 
             $insert = mysqli_query($conn, $sql);
-
+            $insert2 = mysqli_query($conn, $sql2);
 
 
             if (!$insert) {
@@ -242,9 +249,9 @@
                     <tr>
                         <center>
                             <div><label class="drop" style="padding:5px;" for="">Gewinnen auswählen:
-                                    <select name="" id="">
-                                        <option value=0 hidden selected>Sieger</option>
-                                        <option value=0><?php include 'src/kuerzelblue.php' ?></option>
+                                    <select name="winner" id="winner">
+                                        <option value=-1 hidden selected>Sieger</option>
+                                        <option value=1><?php include 'src/kuerzelblue.php' ?></option>
                                         <option value=0><?php include 'src/kuerzelred.php' ?></option>
                                     </select>
                                 </label></div>
