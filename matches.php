@@ -14,6 +14,47 @@
     <!-- TODO #6 Select Befehl für Matches schreiben und Seite designen -->
     <div class="sideways">
 
+    <h1>Matches</h1>
+
+    <table class="center" cellpadding="5">
+        <thead>
+            <!-------HEAD-------------->
+            <tr>
+                <th colspan="7" align="left">Tag 1</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- Tag 1-->
+    
+                <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="100"></td>
+                <td align="middle"><img src="pictures/vs.png" width="50"></td>
+                <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="100"></td>
+
+            </tr>
+            <tr>
+                <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="100"></td>
+                <td align="middle"><img src="pictures/vs.png" width="50"></td>
+                <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="100"></td>
+
+            </tr>
+            <!-- Tag 2 -->
+
+            <!-- Freie Zeilen-->
+            <tr>
+                <td colspan="7"></td>
+            </tr>
+            <tr>
+                <td colspan="7"></td>
+            </tr>
+            <tr>
+                <td colspan="7"></td>
+            </tr>
+            <!-- Freie Zeilen-->
+            <tr>
+                <th colspan="7" align="left">Tag 2</th>
+            </tr>
+
     </div>
 </body>
 
