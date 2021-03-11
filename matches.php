@@ -38,7 +38,7 @@
                 <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="100"></td>
 
             </tr>
-            <!-- Tag 2 -->
+            <!-- Tag 2 11 -->
 
             <!-- Freie Zeilen-->
             <tr>
