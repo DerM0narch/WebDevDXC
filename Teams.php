@@ -18,6 +18,7 @@
             height: 900px;
             margin-right: 30px;
             counter-increment: gallery-cell;
+            text-align: center
         }
 
         img 
@@ -29,6 +30,8 @@
     </style>
 
 <!--Style für die Bilder + Hovertext -->
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 * {box-sizing: border-box;}
@@ -71,39 +74,46 @@
 </head>
 
 
-
-<body>
+<head>
     <!-- TODO #7 Select Befehl für Teams schreiben und Seite designen -->
+
     <div class="sideways">
-        <div class="gallery js-flickity">
-            <div class="gallery-cell">
-                <img src="pictures/Team_Logos/DWG_logo.png" alt="DWG">
-                <hr>
-            </div>
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Fnatic_logo.png" alt="Fnatic">
-                <hr>
+            <div class="gallery js-flickity">
             
-            </div>
-            <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX">
-                <hr>
-            
-            </div>
             <div class="gallery-cell"><img src="pictures/Team_Logos/G2_logo.png" alt="G2">
-                <hr>
-        
-            <div class="container"><img src="pictures\Teams_und_Spieler\G2\G2_Wunder_Top.png" alt="Avatar" class="image">
-                <div class="overlay">G2 Wunder</div>
-               
-            </div>
-            </div>
-            <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit">
-                <hr>
+                 <hr></div>
+
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Fnatic_logo.png" alt="Fnatic">
+                 <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Rogue_logo.png" alt="RGE">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Schalke04_logo.png" alt="S04">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/SKGaming_logo.png" alt="SK">
+                <hr></div>
             
-            </div>
-            <?php include 'src/teams_select.php' ?>
-        </div>
+            <div class="gallery-cell"><img src="pictures/Team_Logos/UOF_logo.png" alt="UOL">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/FPX_logo.png" alt="FPX">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/VEG_logo.png" alt="VEG">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/DWG_logo.png" alt="DWG">
+                <hr></div>
+
+            <div class="gallery-cell"><img src="pictures/Team_Logos/Gambit_logo.png" alt="Gambit">
+                <hr></div>
     </div>
     <script src="js/flickity.pkgd.min.js"></script>
-</body>
+
+</head>
+
 
 </html>
