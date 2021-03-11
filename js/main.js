@@ -18,9 +18,10 @@ function countdown(ereignis, side) {
   }
 }
 
-function selectchange() {
+function selectchange(ereignis) {
   document.getElementById('hd_spiel_id').value = document.getElementById('nextGame').value;
-  document.spielauswahl.action="game_stats.php?type=2";
+  document.spielauswahl.action="game_stats.php?type=2&ereignis="+ereignis;
+  alert(ereignis);
   document.spielauswahl.submit();
 }
 
@@ -34,5 +35,11 @@ function datenSpeichern() {
   
   document.getElementById('hd_spiel_id').value = document.getElementById('nextGame').value;
   document.spielauswahl.action="game_stats.php?type=3";
+  alert('hallo');
+  document.spielauswahl.submit();
+}
+
+function dummytest() {
+  document.spielauswahl.action="game_stats.php?type=4";
   document.spielauswahl.submit();
 }
