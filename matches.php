@@ -25,7 +25,7 @@
         </thead>
         <tbody>
             <tr>
-                <!-- March 11th -->
+                <!-- Tag 1-->
     
                 <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="100"></td>
                 <td align="middle"><img src="pictures/vs.png" width="50"></td>
@@ -38,7 +38,7 @@
                 <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="100"></td>
 
             </tr>
-            <!-- March 11th -->
+            <!-- Tag 2 -->
 
             <!-- Freie Zeilen-->
             <tr>
