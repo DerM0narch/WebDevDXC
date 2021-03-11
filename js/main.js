@@ -18,9 +18,9 @@ function countdown(ereignis, side) {
   }
 }
 
-function selectchange(ereignis) {
+function selectchange() {
   document.getElementById('hd_spiel_id').value = document.getElementById('nextGame').value;
-  document.spielauswahl.action="game_stats.php?type=2&ereignis="+ereignis;
+  document.spielauswahl.action="game_stats.php?type=2"//&ereignis="+ereignis;
   alert(ereignis);
   document.spielauswahl.submit();
 }
