@@ -19,7 +19,7 @@ create table if not exists t_team
   te_name varchar(50),
   te_pic_path varchar(200),
   te_kuerzel varchar(3),
-  te_win INT,
+  te_win INT DEFAULT 0 NOT NULL ,
   primary key (te_id)
 );
 

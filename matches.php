@@ -61,7 +61,7 @@
                 <td align="middle"><img src="pictures/vs.png" width="30"></td>
                 <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
             </tr>
-            <!-- Tag 2 -->
+            <!-- Tag 2 yayyyyyy -->
 
             <!-- Freie Zeilen-->
             <tr>
