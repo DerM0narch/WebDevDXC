@@ -29,3 +29,10 @@ function selectchangeteam() {
   document.welchesTeam.action="players.php?type=2";
   document.welchesTeam.submit();
 }
+
+function datenSpeichern() {
+  
+  document.getElementById('hd_spiel_id').value = document.getElementById('nextGame').value;
+  document.spielauswahl.action="game_stats.php?type=3";
+  document.spielauswahl.submit();
+}
