@@ -32,7 +32,12 @@
         echo 'class="active"';
       } ?> href="game_stats.php"><span class="material-icons sidespace">alarm</span>Game Stats</a>
 
-  <?php if (!isset($_SESSION['angemeldet']) || !$_SESSION['angemeldet']) {
+  <?php
+  session_start();
+
+  $hostname = $_SERVER['HTTP_HOST'];
+  $path = dirname($_SERVER['PHP_SELF']);
+  if (!isset($_SESSION['angemeldet']) || !$_SESSION['angemeldet']) {
     echo '<a href="login.php" style="margin-top: 70px;"><span class="material-icons sidespace">login</span>Login</a>';
   } else {
     echo '<a href="logout.php" style="margin-top: 70px;"><span class="material-icons sidespace">logout</span>Logout</a>';
