@@ -41,6 +41,7 @@
     echo '<a href="login.php" style="margin-top: 70px;"><span class="material-icons sidespace">login</span>Login</a>';
   } else {
     echo '<a href="logout.php" style="margin-top: 70px;"><span class="material-icons sidespace">logout</span>Logout</a>';
+    echo '<a href="#"><span class="material-icons sidespace">face</span>Logged in</a>';
   } ?>
 </div>
 
