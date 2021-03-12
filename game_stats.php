@@ -47,7 +47,7 @@
             }
             //echo "<p align=center>".mysqli_result($notlooser, 0, 0)."</p>";
             $sql3 = "UPDATE t_spieltag set sp_win=" . mysqli_result($notlooser, 0, 0) . " where sp_id=" . $_POST['hd_spiel_id'];
-            echo $sql3;
+            //echo $sql3;
             $sql = "INSERT INTO t_spiel_stats (ss_sp_id, ss_blue_kills, ss_blue_drakes, ss_blue_nashes, ss_blue_turrets, ss_blue_inhibs,
                              ss_red_kills, ss_red_drakes, ss_red_nashes, ss_red_turrets, ss_red_inhibs) VALUES ('$sp_id', '$bluekills', '$bluedrakes', '$bluenashes',
                              '$blueturret', '$blueinhib', '$redkills', '$reddrakes', '$rednashes', '$redturret', '$redinhib')";
