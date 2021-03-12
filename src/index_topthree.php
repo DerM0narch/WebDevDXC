@@ -1,3 +1,20 @@
+<style>
+    table {
+        font-size: xx-large;
+        text-align: center;
+    }
+
+    td {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    th {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+</style>
+
 <?php
 $sql = "SELECT te_name, te_win FROM t_team ORDER BY te_win DESC LIMIT 3";
 if ($result = mysqli_query($conn, $sql)) {
