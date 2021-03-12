@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <?php include 'src/navigation.php' ?>
     <?php include 'src/db_conn.php' ?>
+    <?php include 'src/auth.php' ?>
     <script src="js/main.js"></script>
 
 </head>
@@ -33,19 +34,19 @@
             $winner = $_POST['winner'];
             //echo "<center>$winner</center>";
             if ($winner == 1) {
-                $sql4 = "SELECT sp_blue_side from t_spieltag where sp_id=".$_POST['hd_spiel_id'];
+                $sql4 = "SELECT sp_blue_side from t_spieltag where sp_id=" . $_POST['hd_spiel_id'];
                 //echo $sql4;
-                $notlooser=mysqli_query($conn, $sql4);
-                $sql2 = "UPDATE t_team SET te_win= te_win + 1 WHERE te_id=".mysqli_result($notlooser, 0, 0);
+                $notlooser = mysqli_query($conn, $sql4);
+                $sql2 = "UPDATE t_team SET te_win= te_win + 1 WHERE te_id=" . mysqli_result($notlooser, 0, 0);
             } elseif ($winner == 0) {
-                $sql4 = "SELECT sp_red_side from t_spieltag where sp_id=".$_POST['hd_spiel_id'];
+                $sql4 = "SELECT sp_red_side from t_spieltag where sp_id=" . $_POST['hd_spiel_id'];
                 //echo $sql4;
-                $notlooser=mysqli_query($conn, $sql4);
-                $sql2 = "UPDATE t_team SET te_win= te_win + 1 WHERE te_id=".mysqli_result($notlooser, 0, 0);
+                $notlooser = mysqli_query($conn, $sql4);
+                $sql2 = "UPDATE t_team SET te_win= te_win + 1 WHERE te_id=" . mysqli_result($notlooser, 0, 0);
             } else {
             }
             //echo "<p align=center>".mysqli_result($notlooser, 0, 0)."</p>";
-            $sql3="UPDATE t_spieltag set sp_win=" . mysqli_result($notlooser, 0, 0) . " where sp_id=".$_POST['hd_spiel_id'];
+            $sql3 = "UPDATE t_spieltag set sp_win=" . mysqli_result($notlooser, 0, 0) . " where sp_id=" . $_POST['hd_spiel_id'];
             echo $sql3;
             $sql = "INSERT INTO t_spiel_stats (ss_sp_id, ss_blue_kills, ss_blue_drakes, ss_blue_nashes, ss_blue_turrets, ss_blue_inhibs,
                              ss_red_kills, ss_red_drakes, ss_red_nashes, ss_red_turrets, ss_red_inhibs) VALUES ('$sp_id', '$bluekills', '$bluedrakes', '$bluenashes',
@@ -53,7 +54,7 @@
 
             // echo $sql;
             // echo $sql3;
-            
+
             $insert = mysqli_query($conn, $sql);
             $insert2 = mysqli_query($conn, $sql2);
             $insert3 = mysqli_query($conn, $sql3);
