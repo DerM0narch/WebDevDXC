@@ -259,9 +259,8 @@
                 <table>
                     <tr>
                         <center>
-                            <div><label class="drop" style="padding:5px;" for="">Gewinnen auswählen:
-                                    <select name="winner" id="winner">
-                                        <option value=-1 hidden selected>Sieger</option>
+                            <div><label class="drop" style="padding:5px;" for="">Gewinner auswählen:
+                                    <select name="winner" id="winner" placeholder="Sieger" required>
                                         <option value=1><?php include 'src/kuerzelblue.php' ?></option>
                                         <option value=0><?php include 'src/kuerzelred.php' ?></option>
                                     </select>
