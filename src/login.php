@@ -10,11 +10,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $path = dirname($_SERVER['PHP_SELF']);
 
   // Benutzername und Passwort werden überprüft
-  require("connect.php");
   $sql = "SELECT * FROM t_user  WHERE u_email='" . $username . "' AND u_passwort='" . md5($passwort) . "'";
 
 
-  $res = mysqli_query($db_hdl, $sql);
+  $res = mysqli_query($conn, $sql);
   if ($res and mysqli_num_rows($res) == 1) {
     $_SESSION['angemeldet'] = true;
     $_SESSION['user'] = $username;
