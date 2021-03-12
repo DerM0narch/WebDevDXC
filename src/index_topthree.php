@@ -18,8 +18,6 @@
 <?php
 $sql = "SELECT te_name, te_win FROM t_team ORDER BY te_win DESC LIMIT 3";
 if ($result = mysqli_query($conn, $sql)) {
-    $name=mysqli_result($sql, 0, 0);
-    $wins=mysqli_result($sql, 0, 1);
 
     if (mysqli_num_rows($result) > 0) {
         echo "<table>";
