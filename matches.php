@@ -35,9 +35,10 @@
                     </tr>
                 </thead>
                 <tbody>
+                    <?php include 'src/matches_liste.php' ?>
 
-                    <tr>
-                        <!-- Tag 1-->
+                    <!-- <tr>
+                        Tag 1
                         <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
                         <td align="middle"><img src="pictures/vs.png" width="30"></td>
                         <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
@@ -62,9 +63,9 @@
                         <td align="middle"><img src="pictures/vs.png" width="30"></td>
                         <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
                     </tr>
-                    <!-- Tag 2 yayyyyyy -->
+                    Tag 2 yayyyyyy
 
-                    <!-- Freie Zeilen-->
+                    Freie Zeilen
                     <tr>
                         <td colspan="7"></td>
                     </tr>
@@ -74,7 +75,7 @@
                     <tr>
                         <td colspan="7"></td>
                     </tr>
-                    <!-- Freie Zeilen-->
+                    Freie Zeilen
                     <tr>
                         <th colspan="7" align="left">Tag 2</th>
                     </tr>
@@ -103,7 +104,8 @@
                         <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
                         <td align="middle"><img src="pictures/vs.png" width="30"></td>
                         <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
-                    </tr>
+                    </tr> -->
+            </table>
         </div>
     </center>
 </body>
