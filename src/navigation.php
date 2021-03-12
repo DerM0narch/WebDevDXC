@@ -31,9 +31,18 @@
   <a <?php if (stripos($_SERVER['REQUEST_URI'], 'game_stats.php') !== false) {
         echo 'class="active"';
       } ?> href="game_stats.php"><span class="material-icons sidespace">alarm</span>Game Stats</a>
-  <a <?php if (stripos($_SERVER['REQUEST_URI'], 'login.php') !== false) {
-        echo 'class="active"';
-      } ?> href="login.php" style="margin-top: 70px;"><span class="material-icons sidespace">login</span>Login</a>
+
+  <?php
+  session_start();
+
+  $hostname = $_SERVER['HTTP_HOST'];
+  $path = dirname($_SERVER['PHP_SELF']);
+  if (!isset($_SESSION['angemeldet']) || !$_SESSION['angemeldet']) {
+    echo '<a href="login.php" style="margin-top: 70px;"><span class="material-icons sidespace">login</span>Login</a>';
+  } else {
+    echo '<a href="logout.php" style="margin-top: 70px;"><span class="material-icons sidespace">logout</span>Logout</a>';
+    echo '<a href="#"><span class="material-icons sidespace">face</span>Logged in</a>';
+  } ?>
 </div>
 
 <footer style=" font-size: xx-small; position: fixed; bottom: 0; margin-left: 40px;">
