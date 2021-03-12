@@ -43,7 +43,7 @@
                 <i class="fas fa-trophy"></i> <b style="font-size: large;"> Top 3</b>
                 <hr>
                 <!-- TODO #3 Select Befehl für die Top 3 Teams bei Siegen -->
-                <?php include 'src/index_topthree.php' ?>
+                <center> <?php include 'src/index_topthree.php' ?></center>
             </div>
         </div>
     </div>
