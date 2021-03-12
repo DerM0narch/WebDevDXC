@@ -104,6 +104,275 @@
                         <td align="middle"><img src="pictures/vs.png" width="30"></td>
                         <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
                     </tr>
+
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 3</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 4</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/VEG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 5</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/VEG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 6</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/VEG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                    </tr> 
+
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 7</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/VEG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 8</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/VEG_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="7"></td>
+                    </tr>
+                    <!-- Freie Zeilen-->
+                    <tr>
+                        <th colspan="7" align="left">Tag 9</th>
+                    </tr>
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/Gambit_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/G2_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/DWG_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Fnatic_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/FPX_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Rogue_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/UOF_logo.png" width="60"></td>
+                    </tr> 
+                    <tr>
+                        <td align="middle"><img src="pictures/Team_Logos/Schalke04_logo.png" width="60"></td>
+                        <td align="middle"><img src="pictures/vs.png" width="30"></td>
+                        <td align="middle"><img src="pictures/Team_Logos/SKGaming_logo.png" width="60"></td>
+                    </tr> 
+
         </div>
     </center>
 </body>
