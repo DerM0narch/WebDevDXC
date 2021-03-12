@@ -1,5 +1,5 @@
 <?php
-$sql = "SELECT * FROM t_gesamt_stats ORDER BY s_win DESC LIMIT 3";
+$sql = "SELECT te_name, te_win FROM t_team ORDER BY te_win DESC LIMIT 3";
 if ($result = mysqli_query($conn, $sql)) {
     if (mysqli_num_rows($result) > 0) {
         echo "<table>";
@@ -10,7 +10,7 @@ if ($result = mysqli_query($conn, $sql)) {
         while ($row = mysqli_fetch_array($result)) {
             echo "<tr>";
             echo "<td>" . $row['te_name'] . "</td>";
-            echo "<td>" . $row['s_win'] . "</td>";
+            echo "<td>" . $row['te_win'] . "</td>";
             echo "</tr>";
         }
         echo "</table>";
