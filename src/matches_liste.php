@@ -4,9 +4,6 @@ include 'db_conn.php';
 $sql2="SELECT sp_id FROM t_spieltag ORDER BY sp_id DESC LIMIT 1";
 $maximal=mysqli_query($conn, $sql2);
 $max=mysqli_result($maximal, 0, 0);
-echo $max;
-
-
 
 for ($i=1; $i<=$max; $i++){
     $sql="SELECT
