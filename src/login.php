@@ -10,14 +10,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $path = dirname($_SERVER['PHP_SELF']);
 
   // Benutzername und Passwort werden überprüft
-  $sql = "SELECT * FROM t_user  WHERE u_email='" . $username . "' AND u_passwort='" . md5($passwort) . "'";
+  $sql = "SELECT * FROM t_user  WHERE u_username='" . $username . "' AND u_passwort='" . $passwort . "'";
 
 
   $res = mysqli_query($conn, $sql);
   if ($res and mysqli_num_rows($res) == 1) {
     $_SESSION['angemeldet'] = true;
     $_SESSION['user'] = $username;
-    header('Location:http://' . $hostname . ($path == '/' ? '' : $path) . '/start.php');
+    header('Location:http://' . $hostname . ($path == '/' ? '' : $path) . '/index.php');
     exit;
   }
 }
@@ -42,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
       <tr>
         <td>
           <table width=100%>
-            <th align=right width=50%>E-Mail:</th>
+            <th align=right width=50%>Benutzername:</th>
             <td> <input type="text" name="username" /></td>
       </tr>
       <th align=right>Passwort: </th>
