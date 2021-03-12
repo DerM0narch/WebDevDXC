@@ -56,6 +56,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <tr align=center>
       <td>&nbsp</td>
     </tr>
+    <tr>
+      <td align='center'>Noch nicht registriert? <a href="register.php"> Hier Registrieren</a></td>
+    </tr>
 
     </table>
 
