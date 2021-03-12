@@ -30,6 +30,7 @@ create table if not exists t_player
   p_vname varchar(25),
   p_ingamename varchar(50),
   p_herkunft varchar(50) default 'unbekannt',
+  p_herkunft_pic_path VARCHAR (200),
   p_team int,
   p_r_rolle int,
   p_geb date,
@@ -128,7 +129,7 @@ INSERT INTO t_team (te_name, te_pic_path, te_kuerzel) VALUES
   
 #Active Roster
 
-INSERT INTO t_player (p_name, p_vname, p_ingamename, p_herkunft, p_team, p_r_rolle) VALUES
+INSERT INTO t_player (p_name, p_vname, p_ingamename, p_herkunft,p_herkunft_pic_path, p_team, p_r_rolle) VALUES
 
 #G2 Esports - Region EU
 
