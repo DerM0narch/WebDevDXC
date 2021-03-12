@@ -18,10 +18,9 @@ for ($i=1; $i<=$max; $i++){
         if (mysqli_num_rows($result) > 0) {
                         
             echo "<tr>";
-            echo "<td> <div style=' flex:1; display:inline; width:100%'>
-            <img style='width:80px;' src='" . mysqli_result($result, 0, 0) . "'>
-            <img style='width:35px; margin-bottom: 40px;' src='pictures/vs.png'> 
-            <img style='width:80px;' src='" . mysqli_result($result, 0, 1) . "'> <br> </div></td>";
+            echo "<td style='vertical-align:middle; padding:10px' > <img style='width:80px;' src='" . mysqli_result($result, 0, 0) . "'> </td>";
+            echo "<td style='vertical-align:middle; padding:20px' > <img style='width:35px; margin-bottom: 40px;' src='pictures/vs.png'> </td>";
+            echo "<td style='vertical-align:middle; padding:10px' > <img style='width:80px;' src='" . mysqli_result($result, 0, 1) . "'> </td>";
 
             echo "</tr>";
             

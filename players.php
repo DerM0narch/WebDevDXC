@@ -34,7 +34,7 @@
         <br>
 
         <?php if (!isset($_GET['type']) || $_GET['type']!=2)
-        echo "Noch kein Team ausgewählt!";
+        echo "<center> Noch kein Team ausgewählt! </center";
         else{?>
 
         <table border="3">
