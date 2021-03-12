@@ -146,24 +146,7 @@
                     <?php include 'src\player_herkunft\player_herkunft_sup.php' ?>
                 </th>
             </tr>
-            <tr>
-            <!-- Bild des Spielers per Knopf onhover anzeigen-->
-                <th>
-                    Bild Toplane
-                </th>
-                <th>
-                    Bild Jungle
-                </th>
-                <th>
-                    Bild Midlane
-                </th>
-                <th>
-                    Bild Botlane
-                </th>
-                <th>
-                    Bild Support
-                </th>
-            </tr>
+            
         </table>
 
         <?php } ?>
