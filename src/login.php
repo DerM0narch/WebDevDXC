@@ -1,7 +1,6 @@
 <?php header('content-type: text/html; charset=utf-8'); ?>
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-  session_start();
 
   $username = $_POST['username'];
   $passwort = $_POST['passwort'];
