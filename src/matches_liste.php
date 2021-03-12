@@ -19,7 +19,7 @@ for ($i=1; $i<=$max; $i++){
                         
             echo "<tr>";
             echo "<td style='vertical-align:middle; padding:10px' > <img style='width:80px;' src='" . mysqli_result($result, 0, 0) . "'> </td>";
-            echo "<td style='vertical-align:middle; padding:20px' > <img style='width:35px; margin-bottom: 40px;' src='pictures/vs.png'> </td>";
+            echo "<td style='vertical-align:middle; padding:10px' > <img style='width:35px; margin-bottom: 10px;' src='pictures/vs.png'> </td>";
             echo "<td style='vertical-align:middle; padding:10px' > <img style='width:80px;' src='" . mysqli_result($result, 0, 1) . "'> </td>";
 
             echo "</tr>";
