@@ -31,7 +31,7 @@
         </style>
 
 
-<head>
+<body>
     <!-- TODO #7 Select Befehl für Teams schreiben und Seite designen -->
 
     <div class="sideways">
@@ -171,7 +171,7 @@
     </div>
     <script src="js/flickity.pkgd.min.js"></script>
 
-</head>
+</body>
 
 
 </html>
